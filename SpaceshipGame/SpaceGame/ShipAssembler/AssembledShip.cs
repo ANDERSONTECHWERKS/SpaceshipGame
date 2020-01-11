@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using SpaceshipGame.ShipAssembler;
 
 namespace SpaceshipGame.ShipAssembler
 {
@@ -18,10 +19,10 @@ namespace SpaceshipGame.ShipAssembler
         private shipClassInterface currentShipClass;
 
         //Current list of ship components. Should be imported into constructor below.
-        List<shipComponentInterface> currentShipComponents;
+        private List<shipComponentInterface> currentShipComponents;
 
         //Current ship health. Should be derived from ship class in constructor below.
-        int shipHealth;
+        private int shipHealth;
 
         //Current ship location, tracked here for future use. Ship object will be stored in it's coordinate.
         private int locationRow;
@@ -49,7 +50,12 @@ namespace SpaceshipGame.ShipAssembler
 
                 selectedComponents = ClassComponentSelect.selectComponents(selectedClass);
 
-                ShipAssembler.AssembledShip selectedShip = new ShipAssembler.AssembledShip(selectedClass, 0, 0, selectedComponents);
+            Console.WriteLine("Name this ship:");
+            string shipName = Console.ReadLine();
+
+
+
+                ShipAssembler.AssembledShip selectedShip = new ShipAssembler.AssembledShip(shipName,selectedClass, 0, 0, selectedComponents);
 
                 return selectedShip;
             
@@ -61,7 +67,8 @@ namespace SpaceshipGame.ShipAssembler
 
         //Ship asssembly constructor. Requires ship class, ship component list, and location col/row as input.
         //TODO: Figure out default ship positions, continue making static methods for determining has<Flags>, and eventually figure out ToString
-        public AssembledShip(shipClassInterface shipClass,int locationRowInp,int locationColInp, List<shipComponentInterface> shipComponentList){
+        public AssembledShip(string shipNameInp, shipClassInterface shipClass,int locationRowInp,int locationColInp, List<shipComponentInterface> shipComponentList){
+            shipName = shipNameInp;
             shipHealth = shipClass.hullHealth;
             currentShipClass = shipClass;
             currentShipComponents = shipComponentList;
@@ -80,7 +87,27 @@ namespace SpaceshipGame.ShipAssembler
         public override string ToString()
         {
             
-            return "Ship Name: " + shipName + "Ship Class: " + currentShipClass;
+            return "Ship Name: " + shipName + ", Ship Class: " + currentShipClass;
+        }
+
+        public string getName()
+        {
+            return shipName;
+        }
+
+        public void setName(string newName)
+        {
+            this.shipName = newName;
+        }
+
+        public List<shipComponentInterface> getComponents()
+        {
+            return this.currentShipComponents;
+        }
+
+        public shipClassInterface getShipClassObject()
+        {
+            return this.currentShipClass;
         }
     }
 }

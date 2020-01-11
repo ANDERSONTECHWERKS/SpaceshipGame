@@ -18,7 +18,7 @@ namespace SpaceshipGame.Components
 
         public string getName()
         {
-            throw new NotImplementedException();
+            return name;
         }
 
         int shipComponentInterface.getHealth()

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Reflection;
+
 namespace SpaceshipGame.ShipAssembler
 {
     class ClassComponentSelect
@@ -63,12 +64,13 @@ namespace SpaceshipGame.ShipAssembler
         }
 
         //confirmSelection: Confirmation window. Returns "0" if the loadout is correct, returns 1 if not.
-        public static int confirmSelection(List<shipComponentInterface> chosenComponents, shipClassInterface chosenClass)
+        public static int confirmSelection(string shipNameInp, List<shipComponentInterface> chosenComponents, shipClassInterface chosenClass)
         {
             List<shipComponentInterface> confirmComponents = chosenComponents;
             shipClassInterface confirmClass = chosenClass;
 
             Console.WriteLine("Confirm your choices:");
+            Console.WriteLine("Ship Name: " + shipNameInp);
             Console.WriteLine("Ship Class: " + chosenClass.shipClassName);
             Console.WriteLine("Itemized List of Ship Components: ");
 

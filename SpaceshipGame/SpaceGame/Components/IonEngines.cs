@@ -32,7 +32,7 @@ namespace SpaceshipGame.Components
 
         int shipComponentInterface.getHealth()
         {
-            return this.health;
+            return health;
         }
 
         bool shipComponentInterface.isComms()
@@ -77,7 +77,8 @@ namespace SpaceshipGame.Components
 
         void shipComponentInterface.setHealth(int healthSet)
         {
-            this.health = healthSet;
+            health = healthSet;
+            Console.WriteLine("Health set to:" + healthSet);
         }
 
         int propulsionComponentInterface.warp_range()

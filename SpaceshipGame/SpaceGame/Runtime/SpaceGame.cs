@@ -10,6 +10,8 @@ namespace SpaceshipGame
     {
         static void Main(string[] args)
         {
+            int confirmMenuResult;
+
             Console.WriteLine(" S-P-A-C-E -----------------------------------");
             Console.WriteLine("---------- G-A-M-E ---------------------------");
             Console.WriteLine("------------------ -- 8 8 --------------------");
@@ -20,7 +22,10 @@ namespace SpaceshipGame
             //assembledShip: Runs the user through the ship creation menu and assigns the current
             AssembledShip assembledShip = AssembledShip.AssembleMenu();
 
-            assembledShip.ToString();
+            //confirmMenuResult: Prompts user to verify the prior selection by making calls to assembledShip getters.
+            confirmMenuResult = ClassComponentSelect.confirmSelection(assembledShip.getName(),assembledShip.getComponents(),assembledShip.getShipClassObject());
+
+            Console.WriteLine(assembledShip.ToString());
         }
     }
 }
