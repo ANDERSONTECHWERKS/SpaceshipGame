@@ -4,16 +4,16 @@ using System.Text;
 
 namespace SpaceshipGame.Components.ComponentInterfaces
 {
-    public interface propulsionComponentInterface
+    public interface IPropulsionComponentInterface
     {
         // We want engines to define, at a minimum, whether they are a jump drive, how many moves they have, etc. More can be added here later.
-       public int num_moves();
+       public int NumMoves();
 
-       public Boolean can_warp();
+       public Boolean CanWarp();
 
-       public int warp_range();
+       public int WarpRange();
 
-        public string getName();
+        public string GetName();
     }
 
 }

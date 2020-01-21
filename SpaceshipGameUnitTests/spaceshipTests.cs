@@ -1,5 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using SpaceshipGame;
 using SpaceshipGame.Grid;
+using SpaceshipGame.ShipAssembler;
 
 namespace SpaceshipGameUnitTests
 {
@@ -29,6 +31,19 @@ namespace SpaceshipGameUnitTests
                 Assert.IsTrue(testGrid.isAsteroid(i, 9));
 
             }
+        }
+
+        [TestMethod]
+
+        public void TestShipPlacement()
+        {
+            spaceGrid testGrid2 = new spaceGrid();
+            AssembledShip testShip = new AssembledShip(new SpaceshipGame.ShipClasses.Frigate(),5,5);
+
+            testGrid2.AddShip(testShip,5,5);
+
+            Assert.IsTrue(testGrid2.isObstaclePresent(5, 5) == 1);
+            
         }
 
         

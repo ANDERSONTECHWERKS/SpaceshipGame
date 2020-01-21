@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SpaceshipGame.Components
 {
-    class IonEngines : shipComponentInterface, ComponentInterfaces.propulsionComponentInterface
+    class IonEngines : IShipComponentInterface, ComponentInterfaces.IPropulsionComponentInterface
     {
         string name = "Standard Type-I Ion Engines";
         private int health = 100;
@@ -25,63 +25,68 @@ namespace SpaceshipGame.Components
             return name;
         }
 
-        bool propulsionComponentInterface.can_warp()
+        bool IPropulsionComponentInterface.CanWarp()
         {
             return can_warp;
         }
 
-        int shipComponentInterface.getHealth()
+        int IShipComponentInterface.getHealth()
         {
             return health;
         }
 
-        bool shipComponentInterface.isComms()
+        string IPropulsionComponentInterface.GetName()
+        {
+            return name;
+        }
+
+        bool IShipComponentInterface.isComms()
         {
             return isComms;
         }
 
-        bool shipComponentInterface.isControl()
+        bool IShipComponentInterface.isControl()
         {
             return isControl;
         }
 
-        bool shipComponentInterface.isDestroyed()
+        bool IShipComponentInterface.isDestroyed()
         {
             return isDestroyed;
         }
 
-        bool shipComponentInterface.isDisabled()
+        bool IShipComponentInterface.isDisabled()
         {
             return isDisabled;
         }
 
-        bool shipComponentInterface.isLifeSupport()
+        bool IShipComponentInterface.isLifeSupport()
         {
             return isLifeSupport;
         }
 
-        bool shipComponentInterface.isPropulsion()
+        bool IShipComponentInterface.isPropulsion()
         {
             return isPropulsion;
         }
 
-        bool shipComponentInterface.isWeapon()
+        bool IShipComponentInterface.isWeapon()
         {
             return isWeapon;
         }
 
-        int propulsionComponentInterface.num_moves()
+        int IPropulsionComponentInterface.NumMoves()
         {
             return num_moves;
         }
 
-        void shipComponentInterface.setHealth(int healthSet)
+        void IShipComponentInterface.setHealth(int healthSet)
         {
             health = healthSet;
             Console.WriteLine("Health set to:" + healthSet);
         }
 
-        int propulsionComponentInterface.warp_range()
+        int IPropulsionComponentInterface.WarpRange()
         {
             return warp_range;
         }

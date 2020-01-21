@@ -1,20 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using SpaceshipGame;
 
 namespace SpaceshipGame.ShipClasses
 {
-    class Frigate : shipClassInterface
+    public class Frigate : IShipClassInterface
     {
         private int hullHealth = 100;
 
         public int numComponents => 7;
 
-        public int locationRow { get =>  locationRow; set => locationRow = value; }
-        public int locationCol { get => locationCol; set => locationCol = value; }
+        public int locationRow { get ; set ; }
+        public int locationCol { get; set; }
 
         public string shipClassName => "Frigate";
 
-        int shipClassInterface.hullHealth => hullHealth;
+        int IShipClassInterface.hullHealth { get ; }
     }
 }

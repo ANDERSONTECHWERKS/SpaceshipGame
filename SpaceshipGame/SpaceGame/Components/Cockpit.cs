@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SpaceshipGame.Components
 {
-    class Cockpit : shipComponentInterface
+    class Cockpit : IShipComponentInterface
     {
         string name = "Standard Mk. 1 Cockpit";
         int health = 100;
@@ -21,47 +21,47 @@ namespace SpaceshipGame.Components
             return name;
         }
 
-        int shipComponentInterface.getHealth()
+        int IShipComponentInterface.getHealth()
         {
             return this.health;
         }
 
-        bool shipComponentInterface.isComms()
+        bool IShipComponentInterface.isComms()
         {
             return isComms;
         }
 
-        bool shipComponentInterface.isControl()
+        bool IShipComponentInterface.isControl()
         {
             return isControl;
         }
 
-        bool shipComponentInterface.isDestroyed()
+        bool IShipComponentInterface.isDestroyed()
         {
             return isDestroyed;
         }
 
-        bool shipComponentInterface.isDisabled()
+        bool IShipComponentInterface.isDisabled()
         {
             return isDisabled;
         }
 
-        bool shipComponentInterface.isLifeSupport()
+        bool IShipComponentInterface.isLifeSupport()
         {
             return isLifeSupport;
         }
 
-        bool shipComponentInterface.isPropulsion()
+        bool IShipComponentInterface.isPropulsion()
         {
             return isPropulsion;
         }
 
-        bool shipComponentInterface.isWeapon()
+        bool IShipComponentInterface.isWeapon()
         {
             return isWeapon;
         }
 
-        void shipComponentInterface.setHealth(int healthSet)
+        void IShipComponentInterface.setHealth(int healthSet)
         {
             this.health = healthSet;
         }

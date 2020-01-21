@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SpaceshipGame
 {
-    public interface shipClassInterface
+    public interface IShipClassInterface
     {
         public String shipClassName
         {
@@ -15,7 +15,7 @@ namespace SpaceshipGame
         public int hullHealth
         {
             get;
-
+            
         }
 
         public int numComponents

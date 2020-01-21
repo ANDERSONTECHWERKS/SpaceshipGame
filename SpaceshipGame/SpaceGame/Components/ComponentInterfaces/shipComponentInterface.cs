@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SpaceshipGame
 {
-    public interface shipComponentInterface
+    public interface IShipComponentInterface
     {
         public int getHealth();
         public void setHealth(int healthSet);
