@@ -7,9 +7,9 @@ namespace SpaceshipGame.ShipAssembler
 {
     class ClassComponentSelect
     {
-        //selectClass: A switch-menu prompting user for a class/hull selection. Currently defaulted to Frigate.
+        //SelectClass: A switch-menu prompting user for a class/hull selection. Currently defaulted to Frigate.
         //TODO: Design a better menu here. This is cheap and shoddy.
-        public static IShipClassInterface selectClass()
+        public static IShipClassInterface SelectClass()
         {
             IShipClassInterface selectedClass;
 
@@ -63,8 +63,8 @@ namespace SpaceshipGame.ShipAssembler
             return chosenComponents;
         }
 
-        //confirmSelection: Confirmation window. Returns "0" if the loadout is correct, returns 1 if not.
-        public static int confirmSelection(string shipNameInp, List<IShipComponentInterface> chosenComponents, IShipClassInterface chosenClass)
+        //ConfirmSelection: Confirmation window. Returns "0" if the loadout is correct, returns 1 if not.
+        public static int ConfirmSelection(string shipNameInp, List<IShipComponentInterface> chosenComponents, IShipClassInterface chosenClass)
         {
             List<IShipComponentInterface> confirmComponents = chosenComponents;
             IShipClassInterface confirmClass = chosenClass;

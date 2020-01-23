@@ -51,7 +51,7 @@ namespace SpaceshipGame.ShipAssembler
 
             Console.WriteLine("CONSTRUCT YOUR SHIP:");
 
-                selectedClass = ClassComponentSelect.selectClass();
+                selectedClass = ClassComponentSelect.SelectClass();
 
                 selectedComponents = ClassComponentSelect.selectComponents(selectedClass);
 
