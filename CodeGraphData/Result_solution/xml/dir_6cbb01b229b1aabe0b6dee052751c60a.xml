@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_6cbb01b229b1aabe0b6dee052751c60a" kind="dir">
+    <compoundname>//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components</compoundname>
+    <innerdir refid="dir_fbefe54b3d0d8454067d1c14e0d45946">//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces</innerdir>
+    <innerfile refid="_cockpit_8cs">Cockpit.cs</innerfile>
+    <innerfile refid="_ion_engines_8cs">IonEngines.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/"/>
+  </compounddef>
+</doxygen>

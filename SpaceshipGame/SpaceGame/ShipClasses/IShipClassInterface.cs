@@ -4,33 +4,33 @@ using System.Text;
 
 namespace SpaceshipGame
 {
-    public interface shipClassInterface
+    public interface IShipClassInterface
     {
-        public String shipClassName
+        String shipClassName
         {
             get;
 
         }
 
-        public int hullHealth
+        int hullHealth
+        {
+            get;
+            
+        }
+
+        int numComponents
         {
             get;
 
         }
 
-        public int numComponents
-        {
-            get;
-
-        }
-
-        public int locationRow
+        int locationRow
         {
             get;
             set;
         }
 
-        public int locationCol
+        int locationCol
         {
             get;
             set;

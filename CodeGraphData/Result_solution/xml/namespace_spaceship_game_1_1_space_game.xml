@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_spaceship_game_1_1_space_game" kind="namespace">
+    <compoundname>SpaceshipGame::SpaceGame</compoundname>
+    <innernamespace refid="namespace_spaceship_game_1_1_space_game_1_1_environment_modifiers">SpaceshipGame::SpaceGame::EnvironmentModifiers</innernamespace>
+    <innernamespace refid="namespace_spaceship_game_1_1_space_game_1_1_game_controller">SpaceshipGame::SpaceGame::GameController</innernamespace>
+    <innernamespace refid="namespace_spaceship_game_1_1_space_game_1_1_grid">SpaceshipGame::SpaceGame::Grid</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

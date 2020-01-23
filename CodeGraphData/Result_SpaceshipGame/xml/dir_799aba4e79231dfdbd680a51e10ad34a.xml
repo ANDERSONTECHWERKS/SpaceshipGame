@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_799aba4e79231dfdbd680a51e10ad34a" kind="dir">
+    <compoundname>//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame</compoundname>
+    <innerdir refid="dir_6cbb01b229b1aabe0b6dee052751c60a">//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components</innerdir>
+    <innerdir refid="dir_dff15a48166fce0ab596d4d142b2359c">//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Environment</innerdir>
+    <innerdir refid="dir_e824af1d05600a44c8c25685953dd7ff">//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController</innerdir>
+    <innerdir refid="dir_485030d9e1d1624bd3ecb770d80ec156">//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid</innerdir>
+    <innerdir refid="dir_12c181816354ca7fc78b6bac5bc412e2">//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Runtime</innerdir>
+    <innerdir refid="dir_edf04b70aa89e5d093c2a007b95324d2">//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler</innerdir>
+    <innerdir refid="dir_e590188b262edabfd4ef1fa6eaf0d9a4">//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipClasses</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/"/>
+  </compounddef>
+</doxygen>

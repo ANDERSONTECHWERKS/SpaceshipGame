@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_spaceship_game_1_1_spaceship_game" kind="class" prot="public">
+    <compoundname>SpaceshipGame::SpaceshipGame</compoundname>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_spaceship_game_1_1_spaceship_game_1a35f8ba07c50eb253b24153ecc6c070ea" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SpaceshipGame.SpaceshipGame.Main</definition>
+        <argsstring>(string[] args)</argsstring>
+        <name>Main</name>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Runtime/SpaceshipGame.cs" line="14" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Runtime/SpaceshipGame.cs" bodystart="14" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spaceship_game_1_1_spaceship_game_1a70057c2a4e6a04c62a40b50192073994" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int SpaceshipGame.SpaceshipGame.NewGame</definition>
+        <argsstring>()</argsstring>
+        <name>NewGame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Runtime/SpaceshipGame.cs" line="34" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Runtime/SpaceshipGame.cs" bodystart="34" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spaceship_game_1_1_spaceship_game_1a67ce7b74ba909faefe25d10f81447972" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int SpaceshipGame.SpaceshipGame.MainMenu</definition>
+        <argsstring>()</argsstring>
+        <name>MainMenu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Runtime/SpaceshipGame.cs" line="72" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Runtime/SpaceshipGame.cs" bodystart="72" bodyend="101"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Runtime/SpaceshipGame.cs" line="13" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Runtime/SpaceshipGame.cs" bodystart="12" bodyend="103"/>
+    <listofallmembers>
+      <member refid="class_spaceship_game_1_1_spaceship_game_1a35f8ba07c50eb253b24153ecc6c070ea" prot="private" virt="non-virtual"><scope>SpaceshipGame::SpaceshipGame</scope><name>Main</name></member>
+      <member refid="class_spaceship_game_1_1_spaceship_game_1a67ce7b74ba909faefe25d10f81447972" prot="private" virt="non-virtual"><scope>SpaceshipGame::SpaceshipGame</scope><name>MainMenu</name></member>
+      <member refid="class_spaceship_game_1_1_spaceship_game_1a70057c2a4e6a04c62a40b50192073994" prot="private" virt="non-virtual"><scope>SpaceshipGame::SpaceshipGame</scope><name>NewGame</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

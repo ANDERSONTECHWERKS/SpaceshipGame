@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_player" kind="class" prot="public">
+    <compoundname>SpaceshipGame::SpaceGame::GameController::Player</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_player_1a08c17d2164780982e0f2467861640f51" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SpaceshipGame.SpaceGame.GameController.Player.PlayerName</definition>
+        <argsstring></argsstring>
+        <name>PlayerName</name>
+        <initializer>= &quot;Default <ref refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_player" kindref="compound">Player</ref> Name&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/Player.cs" line="12" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/Player.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_player_1a522e2e9a2c874298f961566ae5901eae" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship" kindref="compound">AssembledShip</ref> &gt;</type>
+        <definition>List&lt;AssembledShip&gt; SpaceshipGame.SpaceGame.GameController.Player.PlayerShips</definition>
+        <argsstring></argsstring>
+        <name>PlayerShips</name>
+        <initializer>= new List&lt;<ref refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship" kindref="compound">AssembledShip</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/Player.cs" line="13" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/Player.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1a6ab59e97b7c3f3cd62a36c91bddd4781" compoundref="_game_sentinel_8cs" startline="29" endline="81">SpaceshipGame.SpaceGame.GameController.GameSentinel.PerformTurn</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_player_1ad9613a16646be48029d522a5cdcf8a0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SpaceshipGame.SpaceGame.GameController.Player.Player</definition>
+        <argsstring>()</argsstring>
+        <name>Player</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/Player.cs" line="16" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/Player.cs" bodystart="16" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_player_1ae9c95668ed1628d472d4d9a6da8180e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean SpaceshipGame.SpaceGame.GameController.Player.IsPlayerDead</definition>
+        <argsstring>()</argsstring>
+        <name>IsPlayerDead</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/Player.cs" line="25" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/Player.cs" bodystart="25" bodyend="37"/>
+        <referencedby refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1a6ab59e97b7c3f3cd62a36c91bddd4781" compoundref="_game_sentinel_8cs" startline="29" endline="81">SpaceshipGame.SpaceGame.GameController.GameSentinel.PerformTurn</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/Player.cs" line="11" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/Player.cs" bodystart="10" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_player_1ae9c95668ed1628d472d4d9a6da8180e4" prot="public" virt="non-virtual"><scope>SpaceshipGame::SpaceGame::GameController::Player</scope><name>IsPlayerDead</name></member>
+      <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_player_1ad9613a16646be48029d522a5cdcf8a0c" prot="public" virt="non-virtual"><scope>SpaceshipGame::SpaceGame::GameController::Player</scope><name>Player</name></member>
+      <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_player_1a08c17d2164780982e0f2467861640f51" prot="private" virt="non-virtual"><scope>SpaceshipGame::SpaceGame::GameController::Player</scope><name>PlayerName</name></member>
+      <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_player_1a522e2e9a2c874298f961566ae5901eae" prot="public" virt="non-virtual"><scope>SpaceshipGame::SpaceGame::GameController::Player</scope><name>PlayerShips</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

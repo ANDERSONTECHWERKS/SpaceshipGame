@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_spaceship_game_unit_tests_1_1spaceship_tests" kind="class" prot="public">
+    <compoundname>SpaceshipGameUnitTests::spaceshipTests</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_spaceship_game_unit_tests_1_1spaceship_tests_1afa92aa351c19ae1e7af179429c60caf4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpaceshipGameUnitTests.spaceshipTests.TestDefaultGrid</definition>
+        <argsstring>()</argsstring>
+        <name>TestDefaultGrid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGameUnitTests/spaceshipTests.cs" line="13" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGameUnitTests/spaceshipTests.cs" bodystart="13" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spaceship_game_unit_tests_1_1spaceship_tests_1aa855633f2da2dd40cddbe64c8c5c6aae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpaceshipGameUnitTests.spaceshipTests.TestShipPlacement</definition>
+        <argsstring>()</argsstring>
+        <name>TestShipPlacement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGameUnitTests/spaceshipTests.cs" line="38" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGameUnitTests/spaceshipTests.cs" bodystart="38" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spaceship_game_unit_tests_1_1spaceship_tests_1aa8b75c17850fe0a52f44ae7b76d5b8e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpaceshipGameUnitTests.spaceshipTests.TestShipMovement</definition>
+        <argsstring>()</argsstring>
+        <name>TestShipMovement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGameUnitTests/spaceshipTests.cs" line="50" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGameUnitTests/spaceshipTests.cs" bodystart="50" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spaceship_game_unit_tests_1_1spaceship_tests_1a8e4d0cf0f4dd7f4e904379f991768c17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpaceshipGameUnitTests.spaceshipTests.TestGridDraw</definition>
+        <argsstring>()</argsstring>
+        <name>TestGridDraw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGameUnitTests/spaceshipTests.cs" line="67" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGameUnitTests/spaceshipTests.cs" bodystart="67" bodyend="74"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGameUnitTests/spaceshipTests.cs" line="11" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGameUnitTests/spaceshipTests.cs" bodystart="10" bodyend="76"/>
+    <listofallmembers>
+      <member refid="class_spaceship_game_unit_tests_1_1spaceship_tests_1afa92aa351c19ae1e7af179429c60caf4" prot="public" virt="non-virtual"><scope>SpaceshipGameUnitTests::spaceshipTests</scope><name>TestDefaultGrid</name></member>
+      <member refid="class_spaceship_game_unit_tests_1_1spaceship_tests_1a8e4d0cf0f4dd7f4e904379f991768c17" prot="public" virt="non-virtual"><scope>SpaceshipGameUnitTests::spaceshipTests</scope><name>TestGridDraw</name></member>
+      <member refid="class_spaceship_game_unit_tests_1_1spaceship_tests_1aa8b75c17850fe0a52f44ae7b76d5b8e9" prot="public" virt="non-virtual"><scope>SpaceshipGameUnitTests::spaceshipTests</scope><name>TestShipMovement</name></member>
+      <member refid="class_spaceship_game_unit_tests_1_1spaceship_tests_1aa855633f2da2dd40cddbe64c8c5c6aae" prot="public" virt="non-virtual"><scope>SpaceshipGameUnitTests::spaceshipTests</scope><name>TestShipPlacement</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

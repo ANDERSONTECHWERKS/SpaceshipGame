@@ -4,66 +4,33 @@ using System.Text;
 
 namespace SpaceshipGame.Components
 {
-    class Cockpit : shipComponentInterface
+    class Cockpit : IShipComponentInterface
     {
-        string name = "Standard Mk. 1 Cockpit";
-        int health = 100;
-        Boolean isComms = false;
-        Boolean isControl = true;
-        Boolean isDestroyed = false;
-        Boolean isDisabled = false;
-        Boolean isLifeSupport = false;
-        Boolean isPropulsion = false;
-        Boolean isWeapon = false;
+        string Name = "Standard Mk. 1 Cockpit";
+        private int Health = 100;
+        private int NumberOfMoves = 0;
+        private int WarpRange = 0;
+        private bool CanWarp = false;
+        private Boolean ProvidesComms = false;
+        private Boolean ProvidesControl = true;
+        private Boolean IsDestroyed = false;
+        private Boolean IsDisabled = false;
+        private Boolean ProvidesLifeSupport = false;
+        private Boolean ProvidesPropulsion = false;
+        private Boolean ProvidesWeapon = false;
 
-        public string getName()
-        {
-            return name;
-        }
+        int IShipComponentInterface.Health { get => Health; set => Health = value; }
+        int IShipComponentInterface.NumberOfMoves { get => NumberOfMoves; set => NumberOfMoves = value; }
+        int IShipComponentInterface.WarpRange { get => WarpRange; set => WarpRange = value; }
+        bool IShipComponentInterface.CanWarp { get => CanWarp; set => CanWarp = value; }
+        bool IShipComponentInterface.ProvidesComms { get => ProvidesComms; set => ProvidesComms = value; }
+        bool IShipComponentInterface.ProvidesControl { get => ProvidesControl; set => ProvidesControl = value; }
+        bool IShipComponentInterface.IsDestroyed { get => IsDestroyed; set => IsDestroyed = value; }
+        bool IShipComponentInterface.IsDisabled { get => IsDisabled; set => IsDisabled = value; }
+        bool IShipComponentInterface.ProvidesLifeSupport { get => ProvidesLifeSupport; set => ProvidesLifeSupport = value; }
+        bool IShipComponentInterface.ProvidesPropulsion { get => ProvidesPropulsion; set => ProvidesPropulsion = value; }
+        bool IShipComponentInterface.ProvidesWeapon { get => ProvidesWeapon; set => ProvidesWeapon = value; }
 
-        int shipComponentInterface.getHealth()
-        {
-            return this.health;
-        }
-
-        bool shipComponentInterface.isComms()
-        {
-            return isComms;
-        }
-
-        bool shipComponentInterface.isControl()
-        {
-            return isControl;
-        }
-
-        bool shipComponentInterface.isDestroyed()
-        {
-            return isDestroyed;
-        }
-
-        bool shipComponentInterface.isDisabled()
-        {
-            return isDisabled;
-        }
-
-        bool shipComponentInterface.isLifeSupport()
-        {
-            return isLifeSupport;
-        }
-
-        bool shipComponentInterface.isPropulsion()
-        {
-            return isPropulsion;
-        }
-
-        bool shipComponentInterface.isWeapon()
-        {
-            return isWeapon;
-        }
-
-        void shipComponentInterface.setHealth(int healthSet)
-        {
-            this.health = healthSet;
-        }
+        string IShipComponentInterface.Name => Name;
     }
 }

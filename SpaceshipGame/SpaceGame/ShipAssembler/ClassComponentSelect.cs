@@ -9,32 +9,32 @@ namespace SpaceshipGame.ShipAssembler
     {
         //selectClass: A switch-menu prompting user for a class/hull selection. Currently defaulted to Frigate.
         //TODO: Design a better menu here. This is cheap and shoddy.
-        public static shipClassInterface selectClass()
+        public static IShipClassInterface selectClass()
         {
-            shipClassInterface selectedClass;
+            IShipClassInterface selectedClass;
 
             Console.WriteLine("Select a ship class: ");
             Console.WriteLine("1. Frigate");
             string response = Console.ReadLine();
-            
-                switch (response)
-                {
-                    case "1":
-                        Console.WriteLine("Frigate Selected");
-                        selectedClass = new ShipClasses.Frigate();
-                        return selectedClass;
-                    default:
-                        Console.WriteLine("Bad input! Selecting Frigate.");
+
+            switch (response)
+            {
+                case "1":
+                    Console.WriteLine("Frigate Selected");
                     selectedClass = new ShipClasses.Frigate();
                     return selectedClass;
-                }
-            
+                default:
+                    Console.WriteLine("Bad input! Selecting Frigate.");
+                    selectedClass = new ShipClasses.Frigate();
+                    return selectedClass;
+            }
+
         }
-        // TODO: This is throwing an "ArgumentOutOfRange". (Must be non-negative and less than size of collection. Maybe try using collection.add?)
+
         //selectComponents: For every slot, asks the user what component to insert.
-        public static List<shipComponentInterface> selectComponents(shipClassInterface selectedClass)
+        public static List<IShipComponentInterface> selectComponents(IShipClassInterface selectedClass)
         {
-            List <shipComponentInterface> chosenComponents = new List<shipComponentInterface>(selectedClass.numComponents);
+            List<IShipComponentInterface> chosenComponents = new List<IShipComponentInterface>(selectedClass.numComponents);
 
             for (int i = 0; i < chosenComponents.Capacity; i++)
             {
@@ -50,7 +50,7 @@ namespace SpaceshipGame.ShipAssembler
                     Console.WriteLine("Selecting Cockpit.");
                     chosenComponents.Add(new Components.Cockpit());
                     Console.WriteLine("Component Slot " + i + " set to Cockpit.");
-                    
+
                 }
                 if (responseInt == 2)
                 {
@@ -64,10 +64,10 @@ namespace SpaceshipGame.ShipAssembler
         }
 
         //confirmSelection: Confirmation window. Returns "0" if the loadout is correct, returns 1 if not.
-        public static int confirmSelection(string shipNameInp, List<shipComponentInterface> chosenComponents, shipClassInterface chosenClass)
+        public static int confirmSelection(string shipNameInp, List<IShipComponentInterface> chosenComponents, IShipClassInterface chosenClass)
         {
-            List<shipComponentInterface> confirmComponents = chosenComponents;
-            shipClassInterface confirmClass = chosenClass;
+            List<IShipComponentInterface> confirmComponents = chosenComponents;
+            IShipClassInterface confirmClass = chosenClass;
 
             Console.WriteLine("Confirm your choices:");
             Console.WriteLine("Ship Name: " + shipNameInp);
@@ -75,9 +75,9 @@ namespace SpaceshipGame.ShipAssembler
             Console.WriteLine("Itemized List of Ship Components: ");
 
             int counter = 1;
-            foreach (shipComponentInterface thisComponent in chosenComponents)
+            foreach (IShipComponentInterface thisComponent in chosenComponents)
             {
-                Console.WriteLine("SLOT: " + counter + " COMPONENT: " + thisComponent.getName());
+                Console.WriteLine("SLOT: " + counter + " COMPONENT: " + thisComponent.Name);
                 counter++;
             }
 
@@ -94,7 +94,7 @@ namespace SpaceshipGame.ShipAssembler
             }
         }
 
-        public static Boolean hasPropulsion(List<shipComponentInterface> shipComponentList)
+        public static Boolean hasPropulsion(List<IShipComponentInterface> shipComponentList)
         {
             //TODO: Consider checking for disabled engines and thinking how you want to handle them.
 
@@ -102,9 +102,9 @@ namespace SpaceshipGame.ShipAssembler
             //by counting the number of components with the "isPropulsion" flag set.
             int engineCount = 0;
 
-            foreach (shipComponentInterface enumComponent in shipComponentList)
+            foreach (IShipComponentInterface enumComponent in shipComponentList)
             {
-                if (enumComponent.isPropulsion())
+                if (enumComponent.ProvidesPropulsion)
                 {
                     engineCount++;
                 }
@@ -120,7 +120,7 @@ namespace SpaceshipGame.ShipAssembler
                 return false;
             }
         }
-        public static Boolean hasWeapons(List<shipComponentInterface> shipComponentList)
+        public static Boolean hasWeapons(List<IShipComponentInterface> shipComponentList)
         {
             //TODO: Consider checking for disabled weapons and thinking what you want to do with them.
 
@@ -128,9 +128,9 @@ namespace SpaceshipGame.ShipAssembler
             //by counting the number of components with the "isWeapon" flag set.
             int weaponCount = 0;
 
-            foreach (shipComponentInterface enumComponent in shipComponentList)
+            foreach (IShipComponentInterface enumComponent in shipComponentList)
             {
-                if (enumComponent.isWeapon())
+                if (enumComponent.ProvidesWeapon)
                 {
                     weaponCount++;
                 }
@@ -147,17 +147,17 @@ namespace SpaceshipGame.ShipAssembler
             }
         }
 
-        public static Boolean hasLifeSupport(List<shipComponentInterface> shipComponentList)
+        public static Boolean hasLifeSupport(List<IShipComponentInterface> shipComponentList)
         {
             //TODO: Consider checking for disabled life support and thinking what you want to do with it.
 
             //This loop and set of if-statements determines whether the ship has life support
-            //by counting the number of components with the "isLifeSupport" flag set.
+            //by counting the number of components with the "ProvidesLifeSupport" flag set.
             int lifeSupportCount = 0;
 
-            foreach (shipComponentInterface enumComponent in shipComponentList)
+            foreach (IShipComponentInterface enumComponent in shipComponentList)
             {
-                if (enumComponent.isLifeSupport())
+                if (enumComponent.ProvidesLifeSupport)
                 {
                     lifeSupportCount++;
                 }
@@ -173,17 +173,17 @@ namespace SpaceshipGame.ShipAssembler
                 return false;
             }
         }
-        public static Boolean hasControl(List<shipComponentInterface> shipComponentList)
+        public static Boolean hasControl(List<IShipComponentInterface> shipComponentList)
         {
             //TODO: Consider checking for disabled controllers and thinking what you want to do with them.
 
             //This loop and set of if-statements determines whether the ship has a method of control
-            //by counting the number of components with the "isControl" flag set.
+            //by counting the number of components with the "ProvidesControl" flag set.
             int controllerCount = 0;
 
-            foreach (shipComponentInterface enumComponent in shipComponentList)
+            foreach (IShipComponentInterface enumComponent in shipComponentList)
             {
-                if (enumComponent.isControl())
+                if (enumComponent.ProvidesControl)
                 {
                     controllerCount++;
                 }
@@ -199,17 +199,17 @@ namespace SpaceshipGame.ShipAssembler
                 return false;
             }
         }
-        public static Boolean hasComms(List<shipComponentInterface> shipComponentList)
+        public static Boolean hasComms(List<IShipComponentInterface> shipComponentList)
         {
             //TODO: Consider checking for disabled comms and thinking what you want to do with them.
 
             //This loop and set of if-statements determines whether the ship has communications
-            //by counting the number of components with the "isComms" flag set.
+            //by counting the number of components with the "ProvidesComms" flag set.
             int commsCount = 0;
 
-            foreach (shipComponentInterface enumComponent in shipComponentList)
+            foreach (IShipComponentInterface enumComponent in shipComponentList)
             {
-                if (enumComponent.isComms())
+                if (enumComponent.ProvidesComms)
                 {
                     commsCount++;
                 }
@@ -225,5 +225,9 @@ namespace SpaceshipGame.ShipAssembler
                 return false;
             }
         }
+
+
+
+
     }
 }

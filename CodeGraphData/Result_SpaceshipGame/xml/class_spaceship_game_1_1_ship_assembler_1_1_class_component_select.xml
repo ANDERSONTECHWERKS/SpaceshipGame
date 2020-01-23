@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_spaceship_game_1_1_ship_assembler_1_1_class_component_select" kind="class" prot="public">
+    <compoundname>SpaceshipGame::ShipAssembler::ClassComponentSelect</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_spaceship_game_1_1_ship_assembler_1_1_class_component_select_1aeaea9898619574c5044b5ce4c10d5be7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="interface_spaceship_game_1_1_i_ship_class_interface" kindref="compound">IShipClassInterface</ref></type>
+        <definition>static IShipClassInterface SpaceshipGame.ShipAssembler.ClassComponentSelect.selectClass</definition>
+        <argsstring>()</argsstring>
+        <name>selectClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/ClassComponentSelect.cs" line="12" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/ClassComponentSelect.cs" bodystart="12" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spaceship_game_1_1_ship_assembler_1_1_class_component_select_1af7a4ee7411ed6ebe7445b8feafb1e475" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="interface_spaceship_game_1_1_i_ship_component_interface" kindref="compound">IShipComponentInterface</ref> &gt;</type>
+        <definition>static List&lt;IShipComponentInterface&gt; SpaceshipGame.ShipAssembler.ClassComponentSelect.selectComponents</definition>
+        <argsstring>(IShipClassInterface selectedClass)</argsstring>
+        <name>selectComponents</name>
+        <param>
+          <type><ref refid="interface_spaceship_game_1_1_i_ship_class_interface" kindref="compound">IShipClassInterface</ref></type>
+          <declname>selectedClass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/ClassComponentSelect.cs" line="35" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/ClassComponentSelect.cs" bodystart="35" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spaceship_game_1_1_ship_assembler_1_1_class_component_select_1a1478f32f4a273c7734d6c72903676448" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int SpaceshipGame.ShipAssembler.ClassComponentSelect.confirmSelection</definition>
+        <argsstring>(string shipNameInp, List&lt; IShipComponentInterface &gt; chosenComponents, IShipClassInterface chosenClass)</argsstring>
+        <name>confirmSelection</name>
+        <param>
+          <type>string</type>
+          <declname>shipNameInp</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="interface_spaceship_game_1_1_i_ship_component_interface" kindref="compound">IShipComponentInterface</ref> &gt;</type>
+          <declname>chosenComponents</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_spaceship_game_1_1_i_ship_class_interface" kindref="compound">IShipClassInterface</ref></type>
+          <declname>chosenClass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/ClassComponentSelect.cs" line="67" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/ClassComponentSelect.cs" bodystart="67" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spaceship_game_1_1_ship_assembler_1_1_class_component_select_1aa25f60218fc202558f789ba081bdbac4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>static Boolean SpaceshipGame.ShipAssembler.ClassComponentSelect.hasPropulsion</definition>
+        <argsstring>(List&lt; IShipComponentInterface &gt; shipComponentList)</argsstring>
+        <name>hasPropulsion</name>
+        <param>
+          <type>List&lt; <ref refid="interface_spaceship_game_1_1_i_ship_component_interface" kindref="compound">IShipComponentInterface</ref> &gt;</type>
+          <declname>shipComponentList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/ClassComponentSelect.cs" line="97" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/ClassComponentSelect.cs" bodystart="97" bodyend="122"/>
+        <references refid="interface_spaceship_game_1_1_i_ship_component_interface_1a8290bd5d3064d027a7f6f25e82edd0be" compoundref="ship_component_interface_8cs" startline="50">SpaceshipGame.IShipComponentInterface.ProvidesPropulsion</references>
+      </memberdef>
+      <memberdef kind="function" id="class_spaceship_game_1_1_ship_assembler_1_1_class_component_select_1a05868a56d71d717f8ea40e03adac699e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>static Boolean SpaceshipGame.ShipAssembler.ClassComponentSelect.hasWeapons</definition>
+        <argsstring>(List&lt; IShipComponentInterface &gt; shipComponentList)</argsstring>
+        <name>hasWeapons</name>
+        <param>
+          <type>List&lt; <ref refid="interface_spaceship_game_1_1_i_ship_component_interface" kindref="compound">IShipComponentInterface</ref> &gt;</type>
+          <declname>shipComponentList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/ClassComponentSelect.cs" line="123" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/ClassComponentSelect.cs" bodystart="123" bodyend="148"/>
+        <references refid="interface_spaceship_game_1_1_i_ship_component_interface_1ad01394e2b7f3a82ce96130aa35906550" compoundref="ship_component_interface_8cs" startline="54">SpaceshipGame.IShipComponentInterface.ProvidesWeapon</references>
+      </memberdef>
+      <memberdef kind="function" id="class_spaceship_game_1_1_ship_assembler_1_1_class_component_select_1a24af41f7a03c46db75a341fbac0adaf2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>static Boolean SpaceshipGame.ShipAssembler.ClassComponentSelect.hasLifeSupport</definition>
+        <argsstring>(List&lt; IShipComponentInterface &gt; shipComponentList)</argsstring>
+        <name>hasLifeSupport</name>
+        <param>
+          <type>List&lt; <ref refid="interface_spaceship_game_1_1_i_ship_component_interface" kindref="compound">IShipComponentInterface</ref> &gt;</type>
+          <declname>shipComponentList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/ClassComponentSelect.cs" line="150" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/ClassComponentSelect.cs" bodystart="150" bodyend="175"/>
+        <references refid="interface_spaceship_game_1_1_i_ship_component_interface_1a77ad89e81214695ca0a08a875ade6532" compoundref="ship_component_interface_8cs" startline="46">SpaceshipGame.IShipComponentInterface.ProvidesLifeSupport</references>
+      </memberdef>
+      <memberdef kind="function" id="class_spaceship_game_1_1_ship_assembler_1_1_class_component_select_1a1cd3a51d2f7058b23944762b80091867" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>static Boolean SpaceshipGame.ShipAssembler.ClassComponentSelect.hasControl</definition>
+        <argsstring>(List&lt; IShipComponentInterface &gt; shipComponentList)</argsstring>
+        <name>hasControl</name>
+        <param>
+          <type>List&lt; <ref refid="interface_spaceship_game_1_1_i_ship_component_interface" kindref="compound">IShipComponentInterface</ref> &gt;</type>
+          <declname>shipComponentList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/ClassComponentSelect.cs" line="176" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/ClassComponentSelect.cs" bodystart="176" bodyend="201"/>
+        <references refid="interface_spaceship_game_1_1_i_ship_component_interface_1a1d1f6c6e9512452958ae6e0d593fcc6e" compoundref="ship_component_interface_8cs" startline="34">SpaceshipGame.IShipComponentInterface.ProvidesControl</references>
+      </memberdef>
+      <memberdef kind="function" id="class_spaceship_game_1_1_ship_assembler_1_1_class_component_select_1ad30ddfebebe09419f2bd37cda20f9bc7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>static Boolean SpaceshipGame.ShipAssembler.ClassComponentSelect.hasComms</definition>
+        <argsstring>(List&lt; IShipComponentInterface &gt; shipComponentList)</argsstring>
+        <name>hasComms</name>
+        <param>
+          <type>List&lt; <ref refid="interface_spaceship_game_1_1_i_ship_component_interface" kindref="compound">IShipComponentInterface</ref> &gt;</type>
+          <declname>shipComponentList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/ClassComponentSelect.cs" line="202" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/ClassComponentSelect.cs" bodystart="202" bodyend="227"/>
+        <references refid="interface_spaceship_game_1_1_i_ship_component_interface_1ad356f42713ba0149ad8ac6eba8557123" compoundref="ship_component_interface_8cs" startline="30">SpaceshipGame.IShipComponentInterface.ProvidesComms</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/ClassComponentSelect.cs" line="9" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/ClassComponentSelect.cs" bodystart="8" bodyend="232"/>
+    <listofallmembers>
+      <member refid="class_spaceship_game_1_1_ship_assembler_1_1_class_component_select_1a1478f32f4a273c7734d6c72903676448" prot="public" virt="non-virtual"><scope>SpaceshipGame::ShipAssembler::ClassComponentSelect</scope><name>confirmSelection</name></member>
+      <member refid="class_spaceship_game_1_1_ship_assembler_1_1_class_component_select_1ad30ddfebebe09419f2bd37cda20f9bc7" prot="public" virt="non-virtual"><scope>SpaceshipGame::ShipAssembler::ClassComponentSelect</scope><name>hasComms</name></member>
+      <member refid="class_spaceship_game_1_1_ship_assembler_1_1_class_component_select_1a1cd3a51d2f7058b23944762b80091867" prot="public" virt="non-virtual"><scope>SpaceshipGame::ShipAssembler::ClassComponentSelect</scope><name>hasControl</name></member>
+      <member refid="class_spaceship_game_1_1_ship_assembler_1_1_class_component_select_1a24af41f7a03c46db75a341fbac0adaf2" prot="public" virt="non-virtual"><scope>SpaceshipGame::ShipAssembler::ClassComponentSelect</scope><name>hasLifeSupport</name></member>
+      <member refid="class_spaceship_game_1_1_ship_assembler_1_1_class_component_select_1aa25f60218fc202558f789ba081bdbac4" prot="public" virt="non-virtual"><scope>SpaceshipGame::ShipAssembler::ClassComponentSelect</scope><name>hasPropulsion</name></member>
+      <member refid="class_spaceship_game_1_1_ship_assembler_1_1_class_component_select_1a05868a56d71d717f8ea40e03adac699e" prot="public" virt="non-virtual"><scope>SpaceshipGame::ShipAssembler::ClassComponentSelect</scope><name>hasWeapons</name></member>
+      <member refid="class_spaceship_game_1_1_ship_assembler_1_1_class_component_select_1aeaea9898619574c5044b5ce4c10d5be7" prot="public" virt="non-virtual"><scope>SpaceshipGame::ShipAssembler::ClassComponentSelect</scope><name>selectClass</name></member>
+      <member refid="class_spaceship_game_1_1_ship_assembler_1_1_class_component_select_1af7a4ee7411ed6ebe7445b8feafb1e475" prot="public" virt="non-virtual"><scope>SpaceshipGame::ShipAssembler::ClassComponentSelect</scope><name>selectComponents</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

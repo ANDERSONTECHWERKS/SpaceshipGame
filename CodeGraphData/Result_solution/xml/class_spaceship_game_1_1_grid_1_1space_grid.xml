@@ -1,0 +1,588 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_spaceship_game_1_1_grid_1_1space_grid" kind="class" prot="public">
+    <compoundname>SpaceshipGame::Grid::spaceGrid</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_spaceship_game_1_1_grid_1_1space_grid_1a66f5bd68a730dc01b204220c9d6b0212" prot="private" static="no" mutable="no">
+        <type>bool[,]</type>
+        <definition>bool [,] SpaceshipGame.Grid.spaceGrid.spacegrid</definition>
+        <argsstring></argsstring>
+        <name>spacegrid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" line="14" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_spaceship_game_1_1_grid_1_1space_grid_1a41c735e927ba8b2c31946a08d094c8b9" compoundref="space_grid_8cs" startline="72" endline="76">SpaceshipGame.Grid.spaceGrid.spaceGrid</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_spaceship_game_1_1_grid_1_1space_grid_1ab14ceb831b27d5a576e87e4c3386be0d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship" kindref="compound">AssembledShip</ref>[,]</type>
+        <definition>AssembledShip [,] SpaceshipGame.Grid.spaceGrid.shipGrid</definition>
+        <argsstring></argsstring>
+        <name>shipGrid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" line="36" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_spaceship_game_1_1_grid_1_1space_grid_1a41c735e927ba8b2c31946a08d094c8b9" compoundref="space_grid_8cs" startline="72" endline="76">SpaceshipGame.Grid.spaceGrid.spaceGrid</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_spaceship_game_1_1_grid_1_1space_grid_1a8aa0e5c18c8048b24e3ef9af7629af2a" prot="public" static="no" mutable="no">
+        <type>const bool</type>
+        <definition>const bool SpaceshipGame.Grid.spaceGrid.ASTEROID</definition>
+        <argsstring></argsstring>
+        <name>ASTEROID</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Establish named constants for use in &apos;spacegrid&apos;. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" line="17" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spaceship_game_1_1_grid_1_1space_grid_1a84995216108d046960bfb461df034e9e" prot="public" static="no" mutable="no">
+        <type>const bool</type>
+        <definition>const bool SpaceshipGame.Grid.spaceGrid.SPACE</definition>
+        <argsstring></argsstring>
+        <name>SPACE</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" line="18" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spaceship_game_1_1_grid_1_1space_grid_1af8eaad9c6c880fe5e0e4457ea30ace7a" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int SpaceshipGame.Grid.spaceGrid.UP</definition>
+        <argsstring></argsstring>
+        <name>UP</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" line="22" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spaceship_game_1_1_grid_1_1space_grid_1a09c86e2e532c0ea625e2d2420c58080d" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int SpaceshipGame.Grid.spaceGrid.DOWN</definition>
+        <argsstring></argsstring>
+        <name>DOWN</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" line="23" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spaceship_game_1_1_grid_1_1space_grid_1ad3f0fe5775c3c93cde2741ab757db37a" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int SpaceshipGame.Grid.spaceGrid.LEFT</definition>
+        <argsstring></argsstring>
+        <name>LEFT</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" line="24" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spaceship_game_1_1_grid_1_1space_grid_1a35547eaf5b700052c48f3b41c9674124" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int SpaceshipGame.Grid.spaceGrid.RIGHT</definition>
+        <argsstring></argsstring>
+        <name>RIGHT</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" line="25" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spaceship_game_1_1_grid_1_1space_grid_1a4aa68cf0b8ba356790f39fdd9f0b5c1b" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int SpaceshipGame.Grid.spaceGrid.UP_AND_LEFT</definition>
+        <argsstring></argsstring>
+        <name>UP_AND_LEFT</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" line="26" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spaceship_game_1_1_grid_1_1space_grid_1a2fb26af849f82edbb9b134fe257327ca" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int SpaceshipGame.Grid.spaceGrid.UP_AND_RIGHT</definition>
+        <argsstring></argsstring>
+        <name>UP_AND_RIGHT</name>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" line="27" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spaceship_game_1_1_grid_1_1space_grid_1a5b201412dfb3a3146fef21367d7cc859" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int SpaceshipGame.Grid.spaceGrid.DOWN_AND_LEFT</definition>
+        <argsstring></argsstring>
+        <name>DOWN_AND_LEFT</name>
+        <initializer>= 6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" line="28" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spaceship_game_1_1_grid_1_1space_grid_1af329e2e906b38e512a76d0171442825c" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int SpaceshipGame.Grid.spaceGrid.DOWN_AND_RIGHT</definition>
+        <argsstring></argsstring>
+        <name>DOWN_AND_RIGHT</name>
+        <initializer>= 7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" line="29" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spaceship_game_1_1_grid_1_1space_grid_1ac76b1e53ca67ff4d56578c6392fd8a9e" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int SpaceshipGame.Grid.spaceGrid.CENTER</definition>
+        <argsstring></argsstring>
+        <name>CENTER</name>
+        <initializer>= 8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" line="30" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_spaceship_game_1_1_grid_1_1space_grid_1a882b39d975ab1196d23e3f0cb02ecfd2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SpaceshipGame.Grid.spaceGrid.spaceGrid</definition>
+        <argsstring>()</argsstring>
+        <name>spaceGrid</name>
+        <briefdescription>
+<para>Default spacegrid: 10x10 empty spacegrid with asteroids bordering the sides. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" line="40" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" bodystart="40" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spaceship_game_1_1_grid_1_1space_grid_1a41c735e927ba8b2c31946a08d094c8b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SpaceshipGame.Grid.spaceGrid.spaceGrid</definition>
+        <argsstring>(spaceGrid copyGrid)</argsstring>
+        <name>spaceGrid</name>
+        <param>
+          <type><ref refid="class_spaceship_game_1_1_grid_1_1space_grid" kindref="compound">spaceGrid</ref></type>
+          <declname>copyGrid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" line="72" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" bodystart="72" bodyend="76"/>
+        <references refid="class_spaceship_game_1_1_grid_1_1space_grid_1ab14ceb831b27d5a576e87e4c3386be0d" compoundref="space_grid_8cs" startline="36">SpaceshipGame.Grid.spaceGrid.shipGrid</references>
+        <references refid="class_spaceship_game_1_1_grid_1_1space_grid_1a66f5bd68a730dc01b204220c9d6b0212" compoundref="space_grid_8cs" startline="14">SpaceshipGame.Grid.spaceGrid.spacegrid</references>
+      </memberdef>
+      <memberdef kind="function" id="class_spaceship_game_1_1_grid_1_1space_grid_1a2d8cf6f458346926144a38f0a7ea8394" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SpaceshipGame.Grid.spaceGrid.spaceGrid</definition>
+        <argsstring>(int sizeRow, int sizeCol)</argsstring>
+        <name>spaceGrid</name>
+        <param>
+          <type>int</type>
+          <declname>sizeRow</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sizeCol</declname>
+        </param>
+        <briefdescription>
+<para>spaceGrid(sizeRow,sizeCol): user-determined spacegrid, filled with empty space and bordering rocks. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" line="79" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" bodystart="79" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spaceship_game_1_1_grid_1_1space_grid_1a8a928ef1aa7d5e373196429e08fdc403" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SpaceshipGame.Grid.spaceGrid.spaceGrid</definition>
+        <argsstring>(AssembledShip[,] shipGridInput, bool[,] spacegridInput)</argsstring>
+        <name>spaceGrid</name>
+        <param>
+          <type><ref refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship" kindref="compound">AssembledShip</ref></type>
+          <declname>shipGridInput</declname>
+          <array>[,]</array>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>spacegridInput</declname>
+          <array>[,]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" line="118" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" bodystart="118" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spaceship_game_1_1_grid_1_1space_grid_1a3858791a9f304466584ac4b5da742d4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean SpaceshipGame.Grid.spaceGrid.isAsteroid</definition>
+        <argsstring>(int row, int col)</argsstring>
+        <name>isAsteroid</name>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+<para>isAsteroid: Checks for Asteroid (Boolean: False) at the row / col specified. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" line="143" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" bodystart="143" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spaceship_game_1_1_grid_1_1space_grid_1abeea5d663b018e79a0bd43fb266a10d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpaceshipGame.Grid.spaceGrid.addAsteroid</definition>
+        <argsstring>(int row, int col)</argsstring>
+        <name>addAsteroid</name>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+<para>addAsteroid: Adds asteroid at the row / col specified </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" line="154" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" bodystart="154" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spaceship_game_1_1_grid_1_1space_grid_1a177d920c27f4f73328dab414abb7e977" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpaceshipGame.Grid.spaceGrid.removeAsteroid</definition>
+        <argsstring>(int row, int col)</argsstring>
+        <name>removeAsteroid</name>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+<para>removeAsteroid: Removes an asteroid. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" line="161" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" bodystart="161" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spaceship_game_1_1_grid_1_1space_grid_1a8886bb78ef912f715f314094740586c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpaceshipGame.Grid.spaceGrid.AddShip</definition>
+        <argsstring>(AssembledShip ship, int row, int col)</argsstring>
+        <name>AddShip</name>
+        <param>
+          <type><ref refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship" kindref="compound">AssembledShip</ref></type>
+          <declname>ship</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+<para>AddShip: adds a ship object at the selected row / col in the ShipGrid. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" line="168" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" bodystart="168" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spaceship_game_1_1_grid_1_1space_grid_1ad419bd250a8df1cc0ccc8039dd0015a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpaceshipGame.Grid.spaceGrid.RemoveShip</definition>
+        <argsstring>(int row, int col)</argsstring>
+        <name>RemoveShip</name>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+<para>RemoveShip: sets the specified row / col to null, effectively &quot;Removing&quot; the ship. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" line="190" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" bodystart="190" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spaceship_game_1_1_grid_1_1space_grid_1a10df2d79a0965eb08525bd87b5d286db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SpaceshipGame.Grid.spaceGrid.isObstaclePresent</definition>
+        <argsstring>(int row, int col)</argsstring>
+        <name>isObstaclePresent</name>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>isObstaclePresent: Returns 0 if both the <ref refid="class_spaceship_game_1_1_grid_1_1space_grid" kindref="compound">spaceGrid</ref> and shipGrid at the selected location is empty. Returns a value other than 0 if an obstacle is in either grid. Currently: 1 if AssembledShip, 2 if Asteroid. Returns 0 if empty space. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" line="203" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" bodystart="203" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spaceship_game_1_1_grid_1_1space_grid_1a56162cb5dfb23c86361470bc8854ecff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpaceshipGame.Grid.spaceGrid.MoveShipDirection</definition>
+        <argsstring>(AssembledShip selectedShip, int Direction)</argsstring>
+        <name>MoveShipDirection</name>
+        <param>
+          <type><ref refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship" kindref="compound">AssembledShip</ref></type>
+          <declname>selectedShip</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>Direction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" line="225" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" bodystart="225" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spaceship_game_1_1_grid_1_1space_grid_1abf2d2b25bc8525b533a6c76ddfc33509" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SpaceshipGame.Grid.spaceGrid.GetGridRowSize</definition>
+        <argsstring>()</argsstring>
+        <name>GetGridRowSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" line="376" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" bodystart="376" bodyend="379"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spaceship_game_1_1_grid_1_1space_grid_1a8d1e05b8852909adec60aaf44c06c69c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SpaceshipGame.Grid.spaceGrid.GetGridColSize</definition>
+        <argsstring>()</argsstring>
+        <name>GetGridColSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" line="380" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" bodystart="380" bodyend="383"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_spaceship_game_1_1_grid_1_1space_grid_1a679adc4a7270aa505dd6a2d4f1f5e4fb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>static Boolean SpaceshipGame.Grid.spaceGrid.isValidMove</definition>
+        <argsstring>(int row, int col, spaceGrid gameGrid)</argsstring>
+        <name>isValidMove</name>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <param>
+          <type><ref refid="class_spaceship_game_1_1_grid_1_1space_grid" kindref="compound">spaceGrid</ref></type>
+          <declname>gameGrid</declname>
+        </param>
+        <briefdescription>
+<para>isValidMove: Checks if the interrogated row / col is occupied by a ship or asteroid, returns true / false. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" line="127" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" bodystart="127" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spaceship_game_1_1_grid_1_1space_grid_1ab8ec62a0870693e31f0584ce098a5a94" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SpaceshipGame.Grid.spaceGrid.MoveShip</definition>
+        <argsstring>(AssembledShip selectedShip, int destRow, int destCol, spaceGrid gameGrid)</argsstring>
+        <name>MoveShip</name>
+        <param>
+          <type><ref refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship" kindref="compound">AssembledShip</ref></type>
+          <declname>selectedShip</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>destRow</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>destCol</declname>
+        </param>
+        <param>
+          <type><ref refid="class_spaceship_game_1_1_grid_1_1space_grid" kindref="compound">spaceGrid</ref></type>
+          <declname>gameGrid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" line="304" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" bodystart="304" bodyend="325"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spaceship_game_1_1_grid_1_1space_grid_1a2aea2efd87a2e6f7c88b2c0cfdd98f3a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int SpaceshipGame.Grid.spaceGrid.DirectionGridToRel</definition>
+        <argsstring>(int CurrentRow, int CurrentCol, int DestRow, int DestCol)</argsstring>
+        <name>DirectionGridToRel</name>
+        <param>
+          <type>int</type>
+          <declname>CurrentRow</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>CurrentCol</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>DestRow</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>DestCol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" line="327" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" bodystart="327" bodyend="372"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="52">
+        <label>SpaceshipGame.ShipAssembler.AssembledShip</label>
+        <link refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship"/>
+        <childnode refid="53" relation="usage">
+          <edgelabel>currentShipClass</edgelabel>
+        </childnode>
+      </node>
+      <node id="51">
+        <label>SpaceshipGame.Grid.spaceGrid</label>
+        <link refid="class_spaceship_game_1_1_grid_1_1space_grid"/>
+        <childnode refid="52" relation="usage">
+          <edgelabel>shipGrid</edgelabel>
+        </childnode>
+      </node>
+      <node id="53">
+        <label>SpaceshipGame.IShipClassInterface</label>
+        <link refid="interface_spaceship_game_1_1_i_ship_class_interface"/>
+      </node>
+    </collaborationgraph>
+    <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" line="10" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid/spaceGrid.cs" bodystart="9" bodyend="384"/>
+    <listofallmembers>
+      <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1abeea5d663b018e79a0bd43fb266a10d8" prot="public" virt="non-virtual"><scope>SpaceshipGame::Grid::spaceGrid</scope><name>addAsteroid</name></member>
+      <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a8886bb78ef912f715f314094740586c6" prot="public" virt="non-virtual"><scope>SpaceshipGame::Grid::spaceGrid</scope><name>AddShip</name></member>
+      <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a8aa0e5c18c8048b24e3ef9af7629af2a" prot="public" virt="non-virtual"><scope>SpaceshipGame::Grid::spaceGrid</scope><name>ASTEROID</name></member>
+      <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1ac76b1e53ca67ff4d56578c6392fd8a9e" prot="public" virt="non-virtual"><scope>SpaceshipGame::Grid::spaceGrid</scope><name>CENTER</name></member>
+      <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a2aea2efd87a2e6f7c88b2c0cfdd98f3a" prot="public" virt="non-virtual"><scope>SpaceshipGame::Grid::spaceGrid</scope><name>DirectionGridToRel</name></member>
+      <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a09c86e2e532c0ea625e2d2420c58080d" prot="public" virt="non-virtual"><scope>SpaceshipGame::Grid::spaceGrid</scope><name>DOWN</name></member>
+      <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a5b201412dfb3a3146fef21367d7cc859" prot="public" virt="non-virtual"><scope>SpaceshipGame::Grid::spaceGrid</scope><name>DOWN_AND_LEFT</name></member>
+      <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1af329e2e906b38e512a76d0171442825c" prot="public" virt="non-virtual"><scope>SpaceshipGame::Grid::spaceGrid</scope><name>DOWN_AND_RIGHT</name></member>
+      <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a8d1e05b8852909adec60aaf44c06c69c" prot="public" virt="non-virtual"><scope>SpaceshipGame::Grid::spaceGrid</scope><name>GetGridColSize</name></member>
+      <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1abf2d2b25bc8525b533a6c76ddfc33509" prot="public" virt="non-virtual"><scope>SpaceshipGame::Grid::spaceGrid</scope><name>GetGridRowSize</name></member>
+      <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a3858791a9f304466584ac4b5da742d4d" prot="public" virt="non-virtual"><scope>SpaceshipGame::Grid::spaceGrid</scope><name>isAsteroid</name></member>
+      <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a10df2d79a0965eb08525bd87b5d286db" prot="public" virt="non-virtual"><scope>SpaceshipGame::Grid::spaceGrid</scope><name>isObstaclePresent</name></member>
+      <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a679adc4a7270aa505dd6a2d4f1f5e4fb" prot="public" virt="non-virtual"><scope>SpaceshipGame::Grid::spaceGrid</scope><name>isValidMove</name></member>
+      <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1ad3f0fe5775c3c93cde2741ab757db37a" prot="public" virt="non-virtual"><scope>SpaceshipGame::Grid::spaceGrid</scope><name>LEFT</name></member>
+      <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1ab8ec62a0870693e31f0584ce098a5a94" prot="public" virt="non-virtual"><scope>SpaceshipGame::Grid::spaceGrid</scope><name>MoveShip</name></member>
+      <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a56162cb5dfb23c86361470bc8854ecff" prot="public" virt="non-virtual"><scope>SpaceshipGame::Grid::spaceGrid</scope><name>MoveShipDirection</name></member>
+      <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a177d920c27f4f73328dab414abb7e977" prot="public" virt="non-virtual"><scope>SpaceshipGame::Grid::spaceGrid</scope><name>removeAsteroid</name></member>
+      <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1ad419bd250a8df1cc0ccc8039dd0015a4" prot="public" virt="non-virtual"><scope>SpaceshipGame::Grid::spaceGrid</scope><name>RemoveShip</name></member>
+      <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a35547eaf5b700052c48f3b41c9674124" prot="public" virt="non-virtual"><scope>SpaceshipGame::Grid::spaceGrid</scope><name>RIGHT</name></member>
+      <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1ab14ceb831b27d5a576e87e4c3386be0d" prot="private" virt="non-virtual"><scope>SpaceshipGame::Grid::spaceGrid</scope><name>shipGrid</name></member>
+      <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a84995216108d046960bfb461df034e9e" prot="public" virt="non-virtual"><scope>SpaceshipGame::Grid::spaceGrid</scope><name>SPACE</name></member>
+      <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a66f5bd68a730dc01b204220c9d6b0212" prot="private" virt="non-virtual"><scope>SpaceshipGame::Grid::spaceGrid</scope><name>spacegrid</name></member>
+      <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a882b39d975ab1196d23e3f0cb02ecfd2" prot="public" virt="non-virtual"><scope>SpaceshipGame::Grid::spaceGrid</scope><name>spaceGrid</name></member>
+      <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a41c735e927ba8b2c31946a08d094c8b9" prot="public" virt="non-virtual"><scope>SpaceshipGame::Grid::spaceGrid</scope><name>spaceGrid</name></member>
+      <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a2d8cf6f458346926144a38f0a7ea8394" prot="public" virt="non-virtual"><scope>SpaceshipGame::Grid::spaceGrid</scope><name>spaceGrid</name></member>
+      <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a8a928ef1aa7d5e373196429e08fdc403" prot="public" virt="non-virtual"><scope>SpaceshipGame::Grid::spaceGrid</scope><name>spaceGrid</name></member>
+      <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1af8eaad9c6c880fe5e0e4457ea30ace7a" prot="public" virt="non-virtual"><scope>SpaceshipGame::Grid::spaceGrid</scope><name>UP</name></member>
+      <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a4aa68cf0b8ba356790f39fdd9f0b5c1b" prot="public" virt="non-virtual"><scope>SpaceshipGame::Grid::spaceGrid</scope><name>UP_AND_LEFT</name></member>
+      <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a2fb26af849f82edbb9b134fe257327ca" prot="public" virt="non-virtual"><scope>SpaceshipGame::Grid::spaceGrid</scope><name>UP_AND_RIGHT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

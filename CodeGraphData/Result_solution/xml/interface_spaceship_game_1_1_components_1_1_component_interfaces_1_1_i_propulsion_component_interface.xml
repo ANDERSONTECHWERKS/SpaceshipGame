@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_spaceship_game_1_1_components_1_1_component_interfaces_1_1_i_propulsion_component_interface" kind="interface" prot="public">
+    <compoundname>SpaceshipGame::Components::ComponentInterfaces::IPropulsionComponentInterface</compoundname>
+    <derivedcompoundref refid="class_spaceship_game_1_1_components_1_1_ion_engines" prot="public" virt="non-virtual">SpaceshipGame.Components.IonEngines</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_spaceship_game_1_1_components_1_1_component_interfaces_1_1_i_propulsion_component_interface_1aecfab1788784f6dd1fcf967663aacdf2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int SpaceshipGame.Components.ComponentInterfaces.IPropulsionComponentInterface.NumberOfMoves</definition>
+        <argsstring></argsstring>
+        <name>NumberOfMoves</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/propulsionComponentInterface.cs" line="10" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/propulsionComponentInterface.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_spaceship_game_1_1_components_1_1_component_interfaces_1_1_i_propulsion_component_interface_1a8b80a93dc1156740e03072c010c565e6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Boolean</type>
+        <definition>Boolean SpaceshipGame.Components.ComponentInterfaces.IPropulsionComponentInterface.CanWarp</definition>
+        <argsstring></argsstring>
+        <name>CanWarp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/propulsionComponentInterface.cs" line="15" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/propulsionComponentInterface.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_spaceship_game_1_1_components_1_1_component_interfaces_1_1_i_propulsion_component_interface_1a7ebc966cf4491df427ae7adfdec1685b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int SpaceshipGame.Components.ComponentInterfaces.IPropulsionComponentInterface.WarpRange</definition>
+        <argsstring></argsstring>
+        <name>WarpRange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/propulsionComponentInterface.cs" line="20" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/propulsionComponentInterface.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_spaceship_game_1_1_components_1_1_component_interfaces_1_1_i_propulsion_component_interface_1a077baf99f9ba8ac1ca9a9a0655eb6f6c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string SpaceshipGame.Components.ComponentInterfaces.IPropulsionComponentInterface.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/propulsionComponentInterface.cs" line="25" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/propulsionComponentInterface.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="38">
+        <label>SpaceshipGame.Components.ComponentInterfaces.IPropulsionComponentInterface</label>
+        <link refid="interface_spaceship_game_1_1_components_1_1_component_interfaces_1_1_i_propulsion_component_interface"/>
+      </node>
+      <node id="39">
+        <label>SpaceshipGame.Components.IonEngines</label>
+        <link refid="class_spaceship_game_1_1_components_1_1_ion_engines"/>
+        <childnode refid="38" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/propulsionComponentInterface.cs" line="8" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/propulsionComponentInterface.cs" bodystart="7" bodyend="29"/>
+    <listofallmembers>
+      <member refid="interface_spaceship_game_1_1_components_1_1_component_interfaces_1_1_i_propulsion_component_interface_1a8b80a93dc1156740e03072c010c565e6" prot="public" virt="non-virtual"><scope>SpaceshipGame::Components::ComponentInterfaces::IPropulsionComponentInterface</scope><name>CanWarp</name></member>
+      <member refid="interface_spaceship_game_1_1_components_1_1_component_interfaces_1_1_i_propulsion_component_interface_1a077baf99f9ba8ac1ca9a9a0655eb6f6c" prot="public" virt="non-virtual"><scope>SpaceshipGame::Components::ComponentInterfaces::IPropulsionComponentInterface</scope><name>Name</name></member>
+      <member refid="interface_spaceship_game_1_1_components_1_1_component_interfaces_1_1_i_propulsion_component_interface_1aecfab1788784f6dd1fcf967663aacdf2" prot="public" virt="non-virtual"><scope>SpaceshipGame::Components::ComponentInterfaces::IPropulsionComponentInterface</scope><name>NumberOfMoves</name></member>
+      <member refid="interface_spaceship_game_1_1_components_1_1_component_interfaces_1_1_i_propulsion_component_interface_1a7ebc966cf4491df427ae7adfdec1685b" prot="public" virt="non-virtual"><scope>SpaceshipGame::Components::ComponentInterfaces::IPropulsionComponentInterface</scope><name>WarpRange</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

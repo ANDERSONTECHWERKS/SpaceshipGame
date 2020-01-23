@@ -5,85 +5,37 @@ using System.Text;
 
 namespace SpaceshipGame.Components
 {
-    class IonEngines : shipComponentInterface, ComponentInterfaces.propulsionComponentInterface
+    class IonEngines : IShipComponentInterface, ComponentInterfaces.IPropulsionComponentInterface
     {
         string name = "Standard Type-I Ion Engines";
         private int health = 100;
-        private int num_moves = 1;
-        private int warp_range = 0;
-        private bool can_warp = false;
-        private Boolean isComms = false;
-        private Boolean isControl = false;
-        private Boolean isDestroyed = false;
-        private Boolean isDisabled = false;
-        private Boolean isLifeSupport = false;
-        private Boolean isPropulsion = true;
-        private Boolean isWeapon = false;
+        private int NumberOfMoves = 1;
+        private int WarpRange = 0;
+        private bool CanWarp = false;
+        private Boolean ProvidesComms = false;
+        private Boolean ProvidesControl = false;
+        private Boolean IsDestroyed = false;
+        private Boolean IsDisabled = false;
+        private Boolean ProvidesLifeSupport = false;
+        private Boolean ProvidesPropulsion = true;
+        private Boolean ProvidesWeapon = false;
 
-        public string getName()
-        {
-            return name;
-        }
+        int IShipComponentInterface.Health { get => health; set => value = health; }
+        int IShipComponentInterface.NumberOfMoves { get => NumberOfMoves; set => value = NumberOfMoves; }
+        int IPropulsionComponentInterface.NumberOfMoves { get => NumberOfMoves; set => value = NumberOfMoves; }
+        int IShipComponentInterface.WarpRange { get => WarpRange; set => value = WarpRange; }
+        int IPropulsionComponentInterface.WarpRange { get => WarpRange; set => value = WarpRange; }
+        bool IShipComponentInterface.CanWarp { get => CanWarp; set => value = CanWarp; }
+        bool IPropulsionComponentInterface.CanWarp { get => CanWarp; set => value = CanWarp; }
+        bool IShipComponentInterface.ProvidesComms { get => ProvidesComms; set => value = ProvidesComms; }
+        bool IShipComponentInterface.ProvidesControl { get => ProvidesControl; set => value = ProvidesControl; }
+        bool IShipComponentInterface.IsDestroyed { get => IsDestroyed; set => value = IsDestroyed; }
+        bool IShipComponentInterface.IsDisabled { get => IsDisabled; set => value = IsDisabled; }
+        bool IShipComponentInterface.ProvidesLifeSupport { get => ProvidesLifeSupport; set => value = ProvidesLifeSupport; }
+        bool IShipComponentInterface.ProvidesPropulsion { get => ProvidesPropulsion; set => value = ProvidesPropulsion; }
+        bool IShipComponentInterface.ProvidesWeapon { get => ProvidesWeapon; set => value = ProvidesWeapon; }
+        string IPropulsionComponentInterface.Name { get => name; }
 
-        bool propulsionComponentInterface.can_warp()
-        {
-            return can_warp;
-        }
-
-        int shipComponentInterface.getHealth()
-        {
-            return health;
-        }
-
-        bool shipComponentInterface.isComms()
-        {
-            return isComms;
-        }
-
-        bool shipComponentInterface.isControl()
-        {
-            return isControl;
-        }
-
-        bool shipComponentInterface.isDestroyed()
-        {
-            return isDestroyed;
-        }
-
-        bool shipComponentInterface.isDisabled()
-        {
-            return isDisabled;
-        }
-
-        bool shipComponentInterface.isLifeSupport()
-        {
-            return isLifeSupport;
-        }
-
-        bool shipComponentInterface.isPropulsion()
-        {
-            return isPropulsion;
-        }
-
-        bool shipComponentInterface.isWeapon()
-        {
-            return isWeapon;
-        }
-
-        int propulsionComponentInterface.num_moves()
-        {
-            return num_moves;
-        }
-
-        void shipComponentInterface.setHealth(int healthSet)
-        {
-            health = healthSet;
-            Console.WriteLine("Health set to:" + healthSet);
-        }
-
-        int propulsionComponentInterface.warp_range()
-        {
-            return warp_range;
-        }
+        string IShipComponentInterface.Name { get => name; }
     }
 }

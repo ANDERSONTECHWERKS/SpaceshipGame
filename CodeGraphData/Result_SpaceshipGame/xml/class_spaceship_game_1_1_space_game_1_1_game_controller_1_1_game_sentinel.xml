@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel" kind="class" prot="public">
+    <compoundname>SpaceshipGame::SpaceGame::GameController::GameSentinel</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1a6e019b20453b5c72b312aef397cecb7a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_spaceship_game_1_1_grid_1_1space_grid" kindref="compound">spaceGrid</ref></type>
+        <definition>spaceGrid SpaceshipGame.SpaceGame.GameController.GameSentinel.grid</definition>
+        <argsstring></argsstring>
+        <name>grid</name>
+        <briefdescription>
+<para><ref refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel" kindref="compound">GameSentinel</ref>: (Concept/Theory: <ref refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel" kindref="compound">GameSentinel</ref> will instantiate the spaceGrid object, manage turns, and handle victory / defeat conditions. The object itself will represent a &quot;Game&quot;. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/GameSentinel.cs" line="17" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/GameSentinel.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1ac3190099fc843802f6f34324b747e521" prot="private" static="no" mutable="no">
+        <type><ref refid="class_spaceship_game_1_1_space_game_1_1_environment_modifiers_1_1_environment" kindref="compound">EnvironmentModifiers.Environment</ref></type>
+        <definition>EnvironmentModifiers.Environment SpaceshipGame.SpaceGame.GameController.GameSentinel.envMod</definition>
+        <argsstring></argsstring>
+        <name>envMod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/GameSentinel.cs" line="18" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/GameSentinel.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1a16a1c36c782f5f9734922d817c49e09b" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_player" kindref="compound">Player</ref> &gt;</type>
+        <definition>List&lt;Player&gt; SpaceshipGame.SpaceGame.GameController.GameSentinel.PlayerList</definition>
+        <argsstring></argsstring>
+        <name>PlayerList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/GameSentinel.cs" line="19" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/GameSentinel.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1a73d506e55da6386188d0384becd9cf38" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SpaceshipGame.SpaceGame.GameController.GameSentinel.PerformTurn</definition>
+        <argsstring>(GameSentinel activeGame)</argsstring>
+        <name>PerformTurn</name>
+        <param>
+          <type><ref refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel" kindref="compound">GameSentinel</ref></type>
+          <declname>activeGame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/GameSentinel.cs" line="27" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/GameSentinel.cs" bodystart="27" bodyend="44"/>
+        <references refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_player_1a522e2e9a2c874298f961566ae5901eae" compoundref="_player_8cs" startline="13">SpaceshipGame.SpaceGame.GameController.Player.PlayerShips</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1adae0357e25bcc36a97ea5e527f234f56" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SpaceshipGame.SpaceGame.GameController.GameSentinel.PlayerTurnPrompt</definition>
+        <argsstring>()</argsstring>
+        <name>PlayerTurnPrompt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/GameSentinel.cs" line="47" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/GameSentinel.cs" bodystart="47" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1ad31e2583ec4ab36bb25a5d85261c226c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpaceshipGame.SpaceGame.GameController.GameSentinel.PlayerMoveShip</definition>
+        <argsstring>(AssembledShip currentShip)</argsstring>
+        <name>PlayerMoveShip</name>
+        <param>
+          <type><ref refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship" kindref="compound">AssembledShip</ref></type>
+          <declname>currentShip</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/GameSentinel.cs" line="54" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/GameSentinel.cs" bodystart="54" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1a26c09693adb0d4d03088a6422d0c0fc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SpaceshipGame.SpaceGame.GameController.GameSentinel.GameSentinel</definition>
+        <argsstring>(spaceGrid gridInput, EnvironmentModifiers.Environment envModInput, List&lt; Player &gt; humanPlayers)</argsstring>
+        <name>GameSentinel</name>
+        <param>
+          <type><ref refid="class_spaceship_game_1_1_grid_1_1space_grid" kindref="compound">spaceGrid</ref></type>
+          <declname>gridInput</declname>
+        </param>
+        <param>
+          <type><ref refid="class_spaceship_game_1_1_space_game_1_1_environment_modifiers_1_1_environment" kindref="compound">EnvironmentModifiers.Environment</ref></type>
+          <declname>envModInput</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_player" kindref="compound">Player</ref> &gt;</type>
+          <declname>humanPlayers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/GameSentinel.cs" line="79" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/GameSentinel.cs" bodystart="79" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="26">
+        <label>SpaceshipGame.ShipAssembler.AssembledShip</label>
+        <link refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship"/>
+        <childnode refid="27" relation="usage">
+          <edgelabel>currentShipClass</edgelabel>
+        </childnode>
+      </node>
+      <node id="25">
+        <label>SpaceshipGame.Grid.spaceGrid</label>
+        <link refid="class_spaceship_game_1_1_grid_1_1space_grid"/>
+        <childnode refid="26" relation="usage">
+          <edgelabel>shipGrid</edgelabel>
+        </childnode>
+      </node>
+      <node id="24">
+        <label>EnvironmentModifiers</label>
+      </node>
+      <node id="27">
+        <label>SpaceshipGame.IShipClassInterface</label>
+        <link refid="interface_spaceship_game_1_1_i_ship_class_interface"/>
+      </node>
+      <node id="23">
+        <label>SpaceshipGame.SpaceGame.GameController.GameSentinel</label>
+        <link refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel"/>
+        <childnode refid="24" relation="usage">
+          <edgelabel>envMod</edgelabel>
+        </childnode>
+        <childnode refid="25" relation="usage">
+          <edgelabel>grid</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/GameSentinel.cs" line="13" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/GameSentinel.cs" bodystart="12" bodyend="86"/>
+    <listofallmembers>
+      <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1ac3190099fc843802f6f34324b747e521" prot="private" virt="non-virtual"><scope>SpaceshipGame::SpaceGame::GameController::GameSentinel</scope><name>envMod</name></member>
+      <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1a26c09693adb0d4d03088a6422d0c0fc9" prot="public" virt="non-virtual"><scope>SpaceshipGame::SpaceGame::GameController::GameSentinel</scope><name>GameSentinel</name></member>
+      <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1a6e019b20453b5c72b312aef397cecb7a" prot="private" virt="non-virtual"><scope>SpaceshipGame::SpaceGame::GameController::GameSentinel</scope><name>grid</name></member>
+      <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1a73d506e55da6386188d0384becd9cf38" prot="public" virt="non-virtual"><scope>SpaceshipGame::SpaceGame::GameController::GameSentinel</scope><name>PerformTurn</name></member>
+      <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1a16a1c36c782f5f9734922d817c49e09b" prot="private" virt="non-virtual"><scope>SpaceshipGame::SpaceGame::GameController::GameSentinel</scope><name>PlayerList</name></member>
+      <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1ad31e2583ec4ab36bb25a5d85261c226c" prot="private" virt="non-virtual"><scope>SpaceshipGame::SpaceGame::GameController::GameSentinel</scope><name>PlayerMoveShip</name></member>
+      <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1adae0357e25bcc36a97ea5e527f234f56" prot="private" virt="non-virtual"><scope>SpaceshipGame::SpaceGame::GameController::GameSentinel</scope><name>PlayerTurnPrompt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
