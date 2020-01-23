@@ -3,6 +3,7 @@
   <compounddef id="namespace_spaceship_game_1_1_space_game_1_1_grid" kind="namespace">
     <compoundname>SpaceshipGame::SpaceGame::Grid</compoundname>
     <innerclass refid="class_spaceship_game_1_1_space_game_1_1_grid_1_1_combat" prot="public">SpaceshipGame::SpaceGame::Grid::Combat</innerclass>
+    <innerclass refid="class_spaceship_game_1_1_space_game_1_1_grid_1_1_grid_draw" prot="public">SpaceshipGame::SpaceGame::Grid::GridDraw</innerclass>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

@@ -32,7 +32,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/Player.cs" line="13" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/Player.cs" bodystart="13" bodyend="-1"/>
-        <referencedby refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1a73d506e55da6386188d0384becd9cf38" compoundref="_game_sentinel_8cs" startline="28" endline="52">SpaceshipGame.SpaceGame.GameController.GameSentinel.PerformTurn</referencedby>
+        <referencedby refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1a6ab59e97b7c3f3cd62a36c91bddd4781" compoundref="_game_sentinel_8cs" startline="29" endline="81">SpaceshipGame.SpaceGame.GameController.GameSentinel.PerformTurn</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -61,7 +61,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/Player.cs" line="25" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/Player.cs" bodystart="25" bodyend="37"/>
-        <referencedby refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1a73d506e55da6386188d0384becd9cf38" compoundref="_game_sentinel_8cs" startline="28" endline="52">SpaceshipGame.SpaceGame.GameController.GameSentinel.PerformTurn</referencedby>
+        <referencedby refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1a6ab59e97b7c3f3cd62a36c91bddd4781" compoundref="_game_sentinel_8cs" startline="29" endline="81">SpaceshipGame.SpaceGame.GameController.GameSentinel.PerformTurn</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>

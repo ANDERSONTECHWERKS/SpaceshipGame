@@ -11,9 +11,9 @@ namespace SpaceshipGame.SpaceGame.Grid
         {
             spaceGrid GridToDraw = currentGrid;
             
-            for (int i = 0; i < GridToDraw.GetGridRowSize() - 1 ; i++)
+            for (int i = 0; i < GridToDraw.GetGridRowSize(); i++)
             {
-                for (int j = 0; j < GridToDraw.GetGridColSize() - 1; j++)
+                for (int j = 0; j < GridToDraw.GetGridColSize(); j++)
                 {
                     int GridResult = GridToDraw.isObstaclePresent(i, j);
 

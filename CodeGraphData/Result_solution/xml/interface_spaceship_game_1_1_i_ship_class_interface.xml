@@ -75,14 +75,14 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="37">
+      <node id="41">
         <label>SpaceshipGame.IShipClassInterface</label>
         <link refid="interface_spaceship_game_1_1_i_ship_class_interface"/>
       </node>
-      <node id="38">
+      <node id="42">
         <label>SpaceshipGame.ShipClasses.Frigate</label>
         <link refid="class_spaceship_game_1_1_ship_classes_1_1_frigate"/>
-        <childnode refid="37" relation="public-inheritance">
+        <childnode refid="41" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>

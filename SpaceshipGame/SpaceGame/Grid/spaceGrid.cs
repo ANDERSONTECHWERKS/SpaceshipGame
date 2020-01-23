@@ -80,6 +80,9 @@ namespace SpaceshipGame.Grid
         {
             spacegrid = new bool[sizeRow, sizeCol];
 
+            int RowLimit = sizeRow - 1;
+            int ColLimit = sizeCol - 1;
+
             for (int i = 0; i < sizeRow; i++)
             {
                 for (int j = 0; j < sizeCol; j++)
@@ -89,16 +92,16 @@ namespace SpaceshipGame.Grid
             }
             
             // The following two loops creates a border of asteroids around the map
-            for (int i = 0; i < sizeCol-1; i++)
+            for (int i = 0; i < sizeCol; i++)
             {
                 spacegrid[0, i] = ASTEROID;
-                spacegrid[sizeRow-1, i] = ASTEROID;
+                spacegrid[RowLimit, i] = ASTEROID;
             }
 
-            for (int i = 0; i < sizeRow-1; i++)
+            for (int i = 0; i < sizeRow; i++)
             {
                 spacegrid[i, 0] = ASTEROID;
-                spacegrid[i, sizeRow-1] = ASTEROID;
+                spacegrid[i, ColLimit] = ASTEROID;
             }
 
             //Create shipGrid with desired dimensions

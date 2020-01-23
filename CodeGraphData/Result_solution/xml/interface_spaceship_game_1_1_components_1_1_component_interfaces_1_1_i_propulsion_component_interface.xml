@@ -62,14 +62,14 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="34">
+      <node id="38">
         <label>SpaceshipGame.Components.ComponentInterfaces.IPropulsionComponentInterface</label>
         <link refid="interface_spaceship_game_1_1_components_1_1_component_interfaces_1_1_i_propulsion_component_interface"/>
       </node>
-      <node id="35">
+      <node id="39">
         <label>SpaceshipGame.Components.IonEngines</label>
         <link refid="class_spaceship_game_1_1_components_1_1_ion_engines"/>
-        <childnode refid="34" relation="public-inheritance">
+        <childnode refid="38" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>

@@ -172,20 +172,20 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="41">
+      <node id="45">
         <label>SpaceshipGame.Components.Cockpit</label>
         <link refid="class_spaceship_game_1_1_components_1_1_cockpit"/>
-        <childnode refid="40" relation="public-inheritance">
+        <childnode refid="44" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="40">
+      <node id="44">
         <label>SpaceshipGame.IShipComponentInterface</label>
         <link refid="interface_spaceship_game_1_1_i_ship_component_interface"/>
       </node>
-      <node id="42">
+      <node id="46">
         <label>SpaceshipGame.Components.IonEngines</label>
         <link refid="class_spaceship_game_1_1_components_1_1_ion_engines"/>
-        <childnode refid="40" relation="public-inheritance">
+        <childnode refid="44" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>

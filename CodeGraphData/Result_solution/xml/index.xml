@@ -7,6 +7,7 @@
     <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a419e1f66913ba7544e0ff23cfef5ca07" kind="variable"><name>shipHealth</name></member>
     <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1acfd42abc4009fecd5715e9e134bc1611" kind="variable"><name>locationRow</name></member>
     <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a6f8577ae900baeca343851ba3d1a290e" kind="variable"><name>locationCol</name></member>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a865dc987890851f4d29de644dcba5315" kind="variable"><name>numberMoves</name></member>
     <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a258342b1793ff8d8429f2ffb6b2eba9c" kind="variable"><name>isDestroyed</name></member>
     <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1affa07735144cf9ddc62619d4b5e54370" kind="variable"><name>isDisabled</name></member>
     <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a7a415af7ba25b012c6dbdd3ab5bca93a" kind="variable"><name>hasPropulsion</name></member>
@@ -69,6 +70,14 @@
     <member refid="class_spaceship_game_1_1_space_game_1_1_grid_1_1_combat_1ab34f61a1f710eb4bcf95f5d875b73f05" kind="function"><name>PerformEncounter</name></member>
     <member refid="class_spaceship_game_1_1_space_game_1_1_grid_1_1_combat_1ad609f50a13376b83c5abee6a731beca0" kind="function"><name>PerformCombat</name></member>
   </compound>
+  <compound refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_c_p_u" kind="class"><name>SpaceshipGame::SpaceGame::GameController::CPU</name>
+    <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_c_p_u_1ab175825d0393e5097680fccdb8ab6bc5" kind="variable"><name>CPUName</name></member>
+    <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_c_p_u_1a6eda754cb0210f00dc93d272640962a0" kind="variable"><name>CPUships</name></member>
+    <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_c_p_u_1aa1804e3500780a3a4f33f26b842943a2" kind="function"><name>CPU</name></member>
+    <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_c_p_u_1a1aa200ba44d20aa1495735e659d6922d" kind="function"><name>IsCPUDead</name></member>
+    <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_c_p_u_1a31e3ff3ac1ace9fe3d785614c306161a" kind="function"><name>GetCPUShipList</name></member>
+    <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_c_p_u_1a5f451a332279263b83e56c684c88151c" kind="function"><name>DetectEnemy</name></member>
+  </compound>
   <compound refid="class_spaceship_game_1_1_space_game_1_1_environment_modifiers_1_1_environment" kind="class"><name>SpaceshipGame::SpaceGame::EnvironmentModifiers::Environment</name>
     <member refid="class_spaceship_game_1_1_space_game_1_1_environment_modifiers_1_1_environment_1a01c3f1c7ebe1e5d5cb0a36e5bea17be5" kind="function"><name>Environment</name></member>
   </compound>
@@ -86,13 +95,17 @@
     <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1a6e019b20453b5c72b312aef397cecb7a" kind="variable"><name>grid</name></member>
     <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1ac3190099fc843802f6f34324b747e521" kind="variable"><name>envMod</name></member>
     <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1a16a1c36c782f5f9734922d817c49e09b" kind="variable"><name>PlayerList</name></member>
-    <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1a73d506e55da6386188d0384becd9cf38" kind="function"><name>PerformTurn</name></member>
+    <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1a995966ae20429afddbe52d5b46eedbd2" kind="variable"><name>CPUlist</name></member>
+    <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1a6ab59e97b7c3f3cd62a36c91bddd4781" kind="function"><name>PerformTurn</name></member>
     <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1adae0357e25bcc36a97ea5e527f234f56" kind="function"><name>PlayerTurnPrompt</name></member>
     <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1ad31e2583ec4ab36bb25a5d85261c226c" kind="function"><name>PlayerMoveShip</name></member>
     <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1a26c09693adb0d4d03088a6422d0c0fc9" kind="function"><name>GameSentinel</name></member>
     <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1ad629a74c34e827a09b81bce80b5e3542" kind="function"><name>GetPlayerCount</name></member>
     <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1a63372c8091fd672ff66889928b5398d9" kind="function"><name>GetPlayerList</name></member>
     <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1a449ff99ef6cec05005b4aa5860f2cb2b" kind="function"><name>GetCurrentEnvironment</name></member>
+  </compound>
+  <compound refid="class_spaceship_game_1_1_space_game_1_1_grid_1_1_grid_draw" kind="class"><name>SpaceshipGame::SpaceGame::Grid::GridDraw</name>
+    <member refid="class_spaceship_game_1_1_space_game_1_1_grid_1_1_grid_draw_1ad0a4d665537396c7c92187d52e46548b" kind="function"><name>DrawShipGrid</name></member>
   </compound>
   <compound refid="class_spaceship_game_1_1_components_1_1_ion_engines" kind="class"><name>SpaceshipGame::Components::IonEngines</name>
     <member refid="class_spaceship_game_1_1_components_1_1_ion_engines_1a994f56fea8fd39b7be5ee10a6caf04a1" kind="variable"><name>name</name></member>
@@ -162,16 +175,31 @@
     <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1ab14ceb831b27d5a576e87e4c3386be0d" kind="variable"><name>shipGrid</name></member>
     <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a8aa0e5c18c8048b24e3ef9af7629af2a" kind="variable"><name>ASTEROID</name></member>
     <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a84995216108d046960bfb461df034e9e" kind="variable"><name>SPACE</name></member>
+    <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1af8eaad9c6c880fe5e0e4457ea30ace7a" kind="variable"><name>UP</name></member>
+    <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a09c86e2e532c0ea625e2d2420c58080d" kind="variable"><name>DOWN</name></member>
+    <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1ad3f0fe5775c3c93cde2741ab757db37a" kind="variable"><name>LEFT</name></member>
+    <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a35547eaf5b700052c48f3b41c9674124" kind="variable"><name>RIGHT</name></member>
+    <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a4aa68cf0b8ba356790f39fdd9f0b5c1b" kind="variable"><name>UP_AND_LEFT</name></member>
+    <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a2fb26af849f82edbb9b134fe257327ca" kind="variable"><name>UP_AND_RIGHT</name></member>
+    <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a5b201412dfb3a3146fef21367d7cc859" kind="variable"><name>DOWN_AND_LEFT</name></member>
+    <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1af329e2e906b38e512a76d0171442825c" kind="variable"><name>DOWN_AND_RIGHT</name></member>
+    <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1ac76b1e53ca67ff4d56578c6392fd8a9e" kind="variable"><name>CENTER</name></member>
     <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a882b39d975ab1196d23e3f0cb02ecfd2" kind="function"><name>spaceGrid</name></member>
+    <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a41c735e927ba8b2c31946a08d094c8b9" kind="function"><name>spaceGrid</name></member>
     <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a2d8cf6f458346926144a38f0a7ea8394" kind="function"><name>spaceGrid</name></member>
+    <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a8a928ef1aa7d5e373196429e08fdc403" kind="function"><name>spaceGrid</name></member>
     <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a3858791a9f304466584ac4b5da742d4d" kind="function"><name>isAsteroid</name></member>
     <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1abeea5d663b018e79a0bd43fb266a10d8" kind="function"><name>addAsteroid</name></member>
     <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a177d920c27f4f73328dab414abb7e977" kind="function"><name>removeAsteroid</name></member>
     <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a8886bb78ef912f715f314094740586c6" kind="function"><name>AddShip</name></member>
     <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1ad419bd250a8df1cc0ccc8039dd0015a4" kind="function"><name>RemoveShip</name></member>
     <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a10df2d79a0965eb08525bd87b5d286db" kind="function"><name>isObstaclePresent</name></member>
+    <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a56162cb5dfb23c86361470bc8854ecff" kind="function"><name>MoveShipDirection</name></member>
+    <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1abf2d2b25bc8525b533a6c76ddfc33509" kind="function"><name>GetGridRowSize</name></member>
+    <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a8d1e05b8852909adec60aaf44c06c69c" kind="function"><name>GetGridColSize</name></member>
     <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a679adc4a7270aa505dd6a2d4f1f5e4fb" kind="function"><name>isValidMove</name></member>
     <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1ab8ec62a0870693e31f0584ce098a5a94" kind="function"><name>MoveShip</name></member>
+    <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a2aea2efd87a2e6f7c88b2c0cfdd98f3a" kind="function"><name>DirectionGridToRel</name></member>
   </compound>
   <compound refid="class_spaceship_game_1_1_spaceship_game" kind="class"><name>SpaceshipGame::SpaceshipGame</name>
     <member refid="class_spaceship_game_1_1_spaceship_game_1a35f8ba07c50eb253b24153ecc6c070ea" kind="function"><name>Main</name></member>
@@ -182,6 +210,7 @@
     <member refid="class_spaceship_game_unit_tests_1_1spaceship_tests_1afa92aa351c19ae1e7af179429c60caf4" kind="function"><name>TestDefaultGrid</name></member>
     <member refid="class_spaceship_game_unit_tests_1_1spaceship_tests_1aa855633f2da2dd40cddbe64c8c5c6aae" kind="function"><name>TestShipPlacement</name></member>
     <member refid="class_spaceship_game_unit_tests_1_1spaceship_tests_1aa8b75c17850fe0a52f44ae7b76d5b8e9" kind="function"><name>TestShipMovement</name></member>
+    <member refid="class_spaceship_game_unit_tests_1_1spaceship_tests_1a8e4d0cf0f4dd7f4e904379f991768c17" kind="function"><name>TestGridDraw</name></member>
   </compound>
   <compound refid="namespace_microsoft_1_1_visual_studio_1_1_test_tools_1_1_unit_testing" kind="namespace"><name>Microsoft::VisualStudio::TestTools::UnitTesting</name>
   </compound>
@@ -225,6 +254,8 @@
   </compound>
   <compound refid="_environment_8cs" kind="file"><name>Environment.cs</name>
   </compound>
+  <compound refid="_c_p_u_8cs" kind="file"><name>CPU.cs</name>
+  </compound>
   <compound refid="_environment_modifier_8cs" kind="file"><name>EnvironmentModifier.cs</name>
   </compound>
   <compound refid="_game_sentinel_8cs" kind="file"><name>GameSentinel.cs</name>
@@ -232,6 +263,8 @@
   <compound refid="_player_8cs" kind="file"><name>Player.cs</name>
   </compound>
   <compound refid="_combat_8cs" kind="file"><name>Combat.cs</name>
+  </compound>
+  <compound refid="_grid_draw_8cs" kind="file"><name>GridDraw.cs</name>
   </compound>
   <compound refid="space_grid_8cs" kind="file"><name>spaceGrid.cs</name>
   </compound>

@@ -389,37 +389,37 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="30">
+      <node id="34">
         <label>ComponentInterfaces::IPropulsionComponentInterface</label>
         <link refid="interface_spaceship_game_1_1_components_1_1_component_interfaces_1_1_i_propulsion_component_interface"/>
       </node>
-      <node id="28">
+      <node id="32">
         <label>SpaceshipGame.Components.IonEngines</label>
         <link refid="class_spaceship_game_1_1_components_1_1_ion_engines"/>
-        <childnode refid="29" relation="public-inheritance">
+        <childnode refid="33" relation="public-inheritance">
         </childnode>
-        <childnode refid="30" relation="public-inheritance">
+        <childnode refid="34" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="29">
+      <node id="33">
         <label>IShipComponentInterface</label>
         <link refid="interface_spaceship_game_1_1_i_ship_component_interface"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="33">
+      <node id="37">
         <label>ComponentInterfaces::IPropulsionComponentInterface</label>
         <link refid="interface_spaceship_game_1_1_components_1_1_component_interfaces_1_1_i_propulsion_component_interface"/>
       </node>
-      <node id="31">
+      <node id="35">
         <label>SpaceshipGame.Components.IonEngines</label>
         <link refid="class_spaceship_game_1_1_components_1_1_ion_engines"/>
-        <childnode refid="32" relation="public-inheritance">
+        <childnode refid="36" relation="public-inheritance">
         </childnode>
-        <childnode refid="33" relation="public-inheritance">
+        <childnode refid="37" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="32">
+      <node id="36">
         <label>IShipComponentInterface</label>
         <link refid="interface_spaceship_game_1_1_i_ship_component_interface"/>
       </node>

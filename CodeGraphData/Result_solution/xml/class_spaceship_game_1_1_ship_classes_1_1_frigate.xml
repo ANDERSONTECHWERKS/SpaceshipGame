@@ -95,18 +95,6 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="19">
-        <label>IShipClassInterface</label>
-        <link refid="interface_spaceship_game_1_1_i_ship_class_interface"/>
-      </node>
-      <node id="18">
-        <label>SpaceshipGame.ShipClasses.Frigate</label>
-        <link refid="class_spaceship_game_1_1_ship_classes_1_1_frigate"/>
-        <childnode refid="19" relation="public-inheritance">
-        </childnode>
-      </node>
-    </inheritancegraph>
-    <collaborationgraph>
       <node id="21">
         <label>IShipClassInterface</label>
         <link refid="interface_spaceship_game_1_1_i_ship_class_interface"/>
@@ -115,6 +103,18 @@
         <label>SpaceshipGame.ShipClasses.Frigate</label>
         <link refid="class_spaceship_game_1_1_ship_classes_1_1_frigate"/>
         <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="23">
+        <label>IShipClassInterface</label>
+        <link refid="interface_spaceship_game_1_1_i_ship_class_interface"/>
+      </node>
+      <node id="22">
+        <label>SpaceshipGame.ShipClasses.Frigate</label>
+        <link refid="class_spaceship_game_1_1_ship_classes_1_1_frigate"/>
+        <childnode refid="23" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

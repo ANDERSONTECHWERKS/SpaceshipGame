@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_c_p_u" kind="class" prot="public">
+    <compoundname>SpaceshipGame::SpaceGame::GameController::CPU</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_c_p_u_1ab175825d0393e5097680fccdb8ab6bc5" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SpaceshipGame.SpaceGame.GameController.CPU.CPUName</definition>
+        <argsstring></argsstring>
+        <name>CPUName</name>
+        <initializer>= &quot;Default <ref refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_c_p_u" kindref="compound">CPU</ref> Name&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/CPU.cs" line="12" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/CPU.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_c_p_u_1a6eda754cb0210f00dc93d272640962a0" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship" kindref="compound">AssembledShip</ref> &gt;</type>
+        <definition>List&lt;AssembledShip&gt; SpaceshipGame.SpaceGame.GameController.CPU.CPUships</definition>
+        <argsstring></argsstring>
+        <name>CPUships</name>
+        <initializer>= new List&lt;<ref refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship" kindref="compound">AssembledShip</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/CPU.cs" line="13" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/CPU.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_c_p_u_1aa1804e3500780a3a4f33f26b842943a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SpaceshipGame.SpaceGame.GameController.CPU.CPU</definition>
+        <argsstring>(String CPUname, List&lt; AssembledShip &gt; CPUships)</argsstring>
+        <name>CPU</name>
+        <param>
+          <type>String</type>
+          <declname>CPUname</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship" kindref="compound">AssembledShip</ref> &gt;</type>
+          <declname>CPUships</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/CPU.cs" line="16" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/CPU.cs" bodystart="16" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_c_p_u_1a1aa200ba44d20aa1495735e659d6922d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean SpaceshipGame.SpaceGame.GameController.CPU.IsCPUDead</definition>
+        <argsstring>()</argsstring>
+        <name>IsCPUDead</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/CPU.cs" line="25" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/CPU.cs" bodystart="25" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_c_p_u_1a31e3ff3ac1ace9fe3d785614c306161a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship" kindref="compound">AssembledShip</ref> &gt;</type>
+        <definition>List&lt;AssembledShip&gt; SpaceshipGame.SpaceGame.GameController.CPU.GetCPUShipList</definition>
+        <argsstring>()</argsstring>
+        <name>GetCPUShipList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/CPU.cs" line="39" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/CPU.cs" bodystart="39" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_c_p_u_1a5f451a332279263b83e56c684c88151c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpaceshipGame.SpaceGame.GameController.CPU.DetectEnemy</definition>
+        <argsstring>()</argsstring>
+        <name>DetectEnemy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/CPU.cs" line="45" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/CPU.cs" bodystart="45" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/CPU.cs" line="10" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/CPU.cs" bodystart="9" bodyend="54"/>
+    <listofallmembers>
+      <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_c_p_u_1aa1804e3500780a3a4f33f26b842943a2" prot="public" virt="non-virtual"><scope>SpaceshipGame::SpaceGame::GameController::CPU</scope><name>CPU</name></member>
+      <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_c_p_u_1ab175825d0393e5097680fccdb8ab6bc5" prot="private" virt="non-virtual"><scope>SpaceshipGame::SpaceGame::GameController::CPU</scope><name>CPUName</name></member>
+      <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_c_p_u_1a6eda754cb0210f00dc93d272640962a0" prot="public" virt="non-virtual"><scope>SpaceshipGame::SpaceGame::GameController::CPU</scope><name>CPUships</name></member>
+      <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_c_p_u_1a5f451a332279263b83e56c684c88151c" prot="public" virt="non-virtual"><scope>SpaceshipGame::SpaceGame::GameController::CPU</scope><name>DetectEnemy</name></member>
+      <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_c_p_u_1a31e3ff3ac1ace9fe3d785614c306161a" prot="public" virt="non-virtual"><scope>SpaceshipGame::SpaceGame::GameController::CPU</scope><name>GetCPUShipList</name></member>
+      <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_c_p_u_1a1aa200ba44d20aa1495735e659d6922d" prot="public" virt="non-virtual"><scope>SpaceshipGame::SpaceGame::GameController::CPU</scope><name>IsCPUDead</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

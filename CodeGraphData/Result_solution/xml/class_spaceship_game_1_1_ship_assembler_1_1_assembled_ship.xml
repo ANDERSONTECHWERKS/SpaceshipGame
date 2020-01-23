@@ -82,6 +82,19 @@
         </inbodydescription>
         <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="32" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="32" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a865dc987890851f4d29de644dcba5315" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SpaceshipGame.ShipAssembler.AssembledShip.numberMoves</definition>
+        <argsstring></argsstring>
+        <name>numberMoves</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="35" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a258342b1793ff8d8429f2ffb6b2eba9c" prot="private" static="no" mutable="no">
         <type>Boolean</type>
         <definition>Boolean SpaceshipGame.ShipAssembler.AssembledShip.isDestroyed</definition>
@@ -93,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="37" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="37" bodyend="-1"/>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="38" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1affa07735144cf9ddc62619d4b5e54370" prot="private" static="no" mutable="no">
         <type>Boolean</type>
@@ -106,7 +119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="38" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="38" bodyend="-1"/>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="39" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a7a415af7ba25b012c6dbdd3ab5bca93a" prot="private" static="no" mutable="no">
         <type>Boolean</type>
@@ -119,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="39" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="39" bodyend="-1"/>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="40" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1abcf29e0920791829a0c6e4dc93bf0cee" prot="private" static="no" mutable="no">
         <type>Boolean</type>
@@ -132,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="40" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="40" bodyend="-1"/>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="41" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1ade0f4672fb1ff559a359fa31d035255e" prot="private" static="no" mutable="no">
         <type>Boolean</type>
@@ -145,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="41" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="41" bodyend="-1"/>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="42" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1ac822fc66eade06f5f5e6a0fc28902466" prot="private" static="no" mutable="no">
         <type>Boolean</type>
@@ -158,7 +171,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="42" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="42" bodyend="-1"/>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="43" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a4f724f857d5b3dc535c36534ef35114d" prot="private" static="no" mutable="no">
         <type>Boolean</type>
@@ -171,7 +184,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="43" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="43" bodyend="-1"/>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="44" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="44" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -186,7 +199,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="45" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="45" bodyend="69"/>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="47" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="47" bodyend="71"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -213,7 +226,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="73" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="73" bodyend="108"/>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="75" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="75" bodyend="110"/>
       </memberdef>
       <memberdef kind="function" id="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a3fc471acb0b467521e12e4dc249f9b91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override string</type>
@@ -226,7 +239,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="131" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="131" bodyend="135"/>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="133" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="133" bodyend="137"/>
       </memberdef>
       <memberdef kind="function" id="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a8832060590d3736757b55a22d972e500" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>string</type>
@@ -239,7 +252,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="137" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="137" bodyend="140"/>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="139" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="139" bodyend="142"/>
       </memberdef>
       <memberdef kind="function" id="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a7c14d97b06616af795bd4dae04b40c91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -256,7 +269,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="142" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="142" bodyend="145"/>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="144" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="144" bodyend="147"/>
       </memberdef>
       <memberdef kind="function" id="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a8a1788c73d49a175fbe1ffc22a1d81de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>List&lt; <ref refid="interface_spaceship_game_1_1_i_ship_component_interface" kindref="compound">IShipComponentInterface</ref> &gt;</type>
@@ -269,7 +282,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="147" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="147" bodyend="150"/>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="149" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="149" bodyend="152"/>
       </memberdef>
       <memberdef kind="function" id="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a32aa1c49df08cb5943b9d164eb8b73e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="interface_spaceship_game_1_1_i_ship_class_interface" kindref="compound">IShipClassInterface</ref></type>
@@ -282,7 +295,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="152" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="152" bodyend="155"/>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="154" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="154" bodyend="157"/>
       </memberdef>
       <memberdef kind="function" id="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a9ac869f3c3cca5ba2ed2c0a6d4e069b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -295,7 +308,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="157" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="157" bodyend="160"/>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="159" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="159" bodyend="162"/>
       </memberdef>
       <memberdef kind="function" id="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a5e61cf119f81875cbbc072d4694e6035" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -308,7 +321,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="161" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="161" bodyend="164"/>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="163" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="163" bodyend="166"/>
       </memberdef>
       <memberdef kind="function" id="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a80092e8adf86685405c7b1622cc9a158" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -325,7 +338,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="165" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="165" bodyend="169"/>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="167" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="167" bodyend="171"/>
       </memberdef>
       <memberdef kind="function" id="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a601a56152abe96e965cc5edf6af4292f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -342,7 +355,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="170" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="170" bodyend="174"/>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="172" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="172" bodyend="176"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -377,7 +390,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="112" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="112" bodyend="127"/>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="114" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="114" bodyend="129"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -397,7 +410,7 @@
         <link refid="interface_spaceship_game_1_1_i_ship_class_interface"/>
       </node>
     </collaborationgraph>
-    <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="12" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="10" bodyend="175"/>
+    <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" line="12" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler/AssembledShip.cs" bodystart="10" bodyend="177"/>
     <listofallmembers>
       <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a805647ff97f868c30624e1ae79d95625" prot="public" virt="non-virtual"><scope>SpaceshipGame::ShipAssembler::AssembledShip</scope><name>AssembledShip</name></member>
       <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a8b5f79e0e04b48029ef610fedd9ae04a" prot="private" virt="non-virtual"><scope>SpaceshipGame::ShipAssembler::AssembledShip</scope><name>AssembledShip</name></member>
@@ -418,6 +431,7 @@
       <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1affa07735144cf9ddc62619d4b5e54370" prot="private" virt="non-virtual"><scope>SpaceshipGame::ShipAssembler::AssembledShip</scope><name>isDisabled</name></member>
       <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a6f8577ae900baeca343851ba3d1a290e" prot="private" virt="non-virtual"><scope>SpaceshipGame::ShipAssembler::AssembledShip</scope><name>locationCol</name></member>
       <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1acfd42abc4009fecd5715e9e134bc1611" prot="private" virt="non-virtual"><scope>SpaceshipGame::ShipAssembler::AssembledShip</scope><name>locationRow</name></member>
+      <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a865dc987890851f4d29de644dcba5315" prot="private" virt="non-virtual"><scope>SpaceshipGame::ShipAssembler::AssembledShip</scope><name>numberMoves</name></member>
       <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a601a56152abe96e965cc5edf6af4292f" prot="public" virt="non-virtual"><scope>SpaceshipGame::ShipAssembler::AssembledShip</scope><name>setLocationCol</name></member>
       <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a80092e8adf86685405c7b1622cc9a158" prot="public" virt="non-virtual"><scope>SpaceshipGame::ShipAssembler::AssembledShip</scope><name>setLocationRow</name></member>
       <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a7c14d97b06616af795bd4dae04b40c91" prot="public" virt="non-virtual"><scope>SpaceshipGame::ShipAssembler::AssembledShip</scope><name>setName</name></member>

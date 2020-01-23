@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Runtime/SpaceshipGame.cs" line="14" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Runtime/SpaceshipGame.cs" bodystart="14" bodyend="31"/>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Runtime/SpaceshipGame.cs" line="15" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Runtime/SpaceshipGame.cs" bodystart="15" bodyend="32"/>
       </memberdef>
       <memberdef kind="function" id="class_spaceship_game_1_1_spaceship_game_1a70057c2a4e6a04c62a40b50192073994" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Runtime/SpaceshipGame.cs" line="34" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Runtime/SpaceshipGame.cs" bodystart="34" bodyend="70"/>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Runtime/SpaceshipGame.cs" line="35" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Runtime/SpaceshipGame.cs" bodystart="35" bodyend="71"/>
       </memberdef>
       <memberdef kind="function" id="class_spaceship_game_1_1_spaceship_game_1a67ce7b74ba909faefe25d10f81447972" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -44,14 +44,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Runtime/SpaceshipGame.cs" line="72" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Runtime/SpaceshipGame.cs" bodystart="72" bodyend="110"/>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Runtime/SpaceshipGame.cs" line="73" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Runtime/SpaceshipGame.cs" bodystart="73" bodyend="116"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Runtime/SpaceshipGame.cs" line="13" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Runtime/SpaceshipGame.cs" bodystart="12" bodyend="112"/>
+    <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Runtime/SpaceshipGame.cs" line="14" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Runtime/SpaceshipGame.cs" bodystart="13" bodyend="118"/>
     <listofallmembers>
       <member refid="class_spaceship_game_1_1_spaceship_game_1a35f8ba07c50eb253b24153ecc6c070ea" prot="private" virt="non-virtual"><scope>SpaceshipGame::SpaceshipGame</scope><name>Main</name></member>
       <member refid="class_spaceship_game_1_1_spaceship_game_1a67ce7b74ba909faefe25d10f81447972" prot="private" virt="non-virtual"><scope>SpaceshipGame::SpaceshipGame</scope><name>MainMenu</name></member>

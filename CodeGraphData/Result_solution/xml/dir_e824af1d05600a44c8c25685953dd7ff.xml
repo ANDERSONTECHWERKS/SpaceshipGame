@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="dir_e824af1d05600a44c8c25685953dd7ff" kind="dir">
     <compoundname>//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController</compoundname>
+    <innerfile refid="_c_p_u_8cs">CPU.cs</innerfile>
     <innerfile refid="_environment_modifier_8cs">EnvironmentModifier.cs</innerfile>
     <innerfile refid="_game_sentinel_8cs">GameSentinel.cs</innerfile>
     <innerfile refid="_player_8cs">Player.cs</innerfile>
