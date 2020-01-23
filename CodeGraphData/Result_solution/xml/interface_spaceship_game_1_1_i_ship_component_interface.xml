@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_spaceship_game_1_1_i_ship_component_interface" kind="interface" prot="public">
+    <compoundname>SpaceshipGame::IShipComponentInterface</compoundname>
+    <derivedcompoundref refid="class_spaceship_game_1_1_components_1_1_cockpit" prot="public" virt="non-virtual">SpaceshipGame.Components.Cockpit</derivedcompoundref>
+    <derivedcompoundref refid="class_spaceship_game_1_1_components_1_1_ion_engines" prot="public" virt="non-virtual">SpaceshipGame.Components.IonEngines</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_spaceship_game_1_1_i_ship_component_interface_1ac9a9095c3cf9913f2f5233c812d3feca" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>String</type>
+        <definition>String SpaceshipGame.IShipComponentInterface.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/shipComponentInterface.cs" line="9" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/shipComponentInterface.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_spaceship_game_1_1_i_ship_component_interface_1ada9096c4f7d1ff25a1ea0efaa6f752ee" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int SpaceshipGame.IShipComponentInterface.Health</definition>
+        <argsstring></argsstring>
+        <name>Health</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/shipComponentInterface.cs" line="14" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/shipComponentInterface.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_spaceship_game_1_1_i_ship_component_interface_1aa4ccfca6896b4c3a87485ea3367dcf37" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int SpaceshipGame.IShipComponentInterface.NumberOfMoves</definition>
+        <argsstring></argsstring>
+        <name>NumberOfMoves</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/shipComponentInterface.cs" line="18" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/shipComponentInterface.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_spaceship_game_1_1_i_ship_component_interface_1a265fe8c81360df330e749915add5742f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int SpaceshipGame.IShipComponentInterface.WarpRange</definition>
+        <argsstring></argsstring>
+        <name>WarpRange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/shipComponentInterface.cs" line="22" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/shipComponentInterface.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_spaceship_game_1_1_i_ship_component_interface_1ae2c239cf7ce597dde4ca6aec86a0e21c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool SpaceshipGame.IShipComponentInterface.CanWarp</definition>
+        <argsstring></argsstring>
+        <name>CanWarp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/shipComponentInterface.cs" line="26" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/shipComponentInterface.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_spaceship_game_1_1_i_ship_component_interface_1ad356f42713ba0149ad8ac6eba8557123" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Boolean</type>
+        <definition>Boolean SpaceshipGame.IShipComponentInterface.ProvidesComms</definition>
+        <argsstring></argsstring>
+        <name>ProvidesComms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/shipComponentInterface.cs" line="30" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/shipComponentInterface.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_spaceship_game_1_1_ship_assembler_1_1_class_component_select_1ad30ddfebebe09419f2bd37cda20f9bc7" compoundref="_class_component_select_8cs" startline="202" endline="227">SpaceshipGame.ShipAssembler.ClassComponentSelect.hasComms</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="interface_spaceship_game_1_1_i_ship_component_interface_1a1d1f6c6e9512452958ae6e0d593fcc6e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Boolean</type>
+        <definition>Boolean SpaceshipGame.IShipComponentInterface.ProvidesControl</definition>
+        <argsstring></argsstring>
+        <name>ProvidesControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/shipComponentInterface.cs" line="33" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/shipComponentInterface.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_spaceship_game_1_1_ship_assembler_1_1_class_component_select_1a1cd3a51d2f7058b23944762b80091867" compoundref="_class_component_select_8cs" startline="176" endline="201">SpaceshipGame.ShipAssembler.ClassComponentSelect.hasControl</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="interface_spaceship_game_1_1_i_ship_component_interface_1a2a97e557c96491d688a3197114ae2413" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Boolean</type>
+        <definition>Boolean SpaceshipGame.IShipComponentInterface.IsDestroyed</definition>
+        <argsstring></argsstring>
+        <name>IsDestroyed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/shipComponentInterface.cs" line="37" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/shipComponentInterface.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_spaceship_game_1_1_i_ship_component_interface_1ad08d957a1a45c27933fdc61f4c4b97db" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Boolean</type>
+        <definition>Boolean SpaceshipGame.IShipComponentInterface.IsDisabled</definition>
+        <argsstring></argsstring>
+        <name>IsDisabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/shipComponentInterface.cs" line="41" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/shipComponentInterface.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_spaceship_game_1_1_i_ship_component_interface_1a77ad89e81214695ca0a08a875ade6532" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Boolean</type>
+        <definition>Boolean SpaceshipGame.IShipComponentInterface.ProvidesLifeSupport</definition>
+        <argsstring></argsstring>
+        <name>ProvidesLifeSupport</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/shipComponentInterface.cs" line="45" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/shipComponentInterface.cs" bodystart="46" bodyend="-1"/>
+        <referencedby refid="class_spaceship_game_1_1_ship_assembler_1_1_class_component_select_1a24af41f7a03c46db75a341fbac0adaf2" compoundref="_class_component_select_8cs" startline="150" endline="175">SpaceshipGame.ShipAssembler.ClassComponentSelect.hasLifeSupport</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="interface_spaceship_game_1_1_i_ship_component_interface_1a8290bd5d3064d027a7f6f25e82edd0be" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Boolean</type>
+        <definition>Boolean SpaceshipGame.IShipComponentInterface.ProvidesPropulsion</definition>
+        <argsstring></argsstring>
+        <name>ProvidesPropulsion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/shipComponentInterface.cs" line="49" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/shipComponentInterface.cs" bodystart="50" bodyend="-1"/>
+        <referencedby refid="class_spaceship_game_1_1_ship_assembler_1_1_class_component_select_1aa25f60218fc202558f789ba081bdbac4" compoundref="_class_component_select_8cs" startline="97" endline="122">SpaceshipGame.ShipAssembler.ClassComponentSelect.hasPropulsion</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="interface_spaceship_game_1_1_i_ship_component_interface_1ad01394e2b7f3a82ce96130aa35906550" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Boolean</type>
+        <definition>Boolean SpaceshipGame.IShipComponentInterface.ProvidesWeapon</definition>
+        <argsstring></argsstring>
+        <name>ProvidesWeapon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/shipComponentInterface.cs" line="53" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/shipComponentInterface.cs" bodystart="54" bodyend="-1"/>
+        <referencedby refid="class_spaceship_game_1_1_ship_assembler_1_1_class_component_select_1a05868a56d71d717f8ea40e03adac699e" compoundref="_class_component_select_8cs" startline="123" endline="148">SpaceshipGame.ShipAssembler.ClassComponentSelect.hasWeapons</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="41">
+        <label>SpaceshipGame.Components.Cockpit</label>
+        <link refid="class_spaceship_game_1_1_components_1_1_cockpit"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>SpaceshipGame.IShipComponentInterface</label>
+        <link refid="interface_spaceship_game_1_1_i_ship_component_interface"/>
+      </node>
+      <node id="42">
+        <label>SpaceshipGame.Components.IonEngines</label>
+        <link refid="class_spaceship_game_1_1_components_1_1_ion_engines"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/shipComponentInterface.cs" line="8" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces/shipComponentInterface.cs" bodystart="7" bodyend="57"/>
+    <listofallmembers>
+      <member refid="interface_spaceship_game_1_1_i_ship_component_interface_1ae2c239cf7ce597dde4ca6aec86a0e21c" prot="public" virt="non-virtual"><scope>SpaceshipGame::IShipComponentInterface</scope><name>CanWarp</name></member>
+      <member refid="interface_spaceship_game_1_1_i_ship_component_interface_1ada9096c4f7d1ff25a1ea0efaa6f752ee" prot="public" virt="non-virtual"><scope>SpaceshipGame::IShipComponentInterface</scope><name>Health</name></member>
+      <member refid="interface_spaceship_game_1_1_i_ship_component_interface_1a2a97e557c96491d688a3197114ae2413" prot="public" virt="non-virtual"><scope>SpaceshipGame::IShipComponentInterface</scope><name>IsDestroyed</name></member>
+      <member refid="interface_spaceship_game_1_1_i_ship_component_interface_1ad08d957a1a45c27933fdc61f4c4b97db" prot="public" virt="non-virtual"><scope>SpaceshipGame::IShipComponentInterface</scope><name>IsDisabled</name></member>
+      <member refid="interface_spaceship_game_1_1_i_ship_component_interface_1ac9a9095c3cf9913f2f5233c812d3feca" prot="public" virt="non-virtual"><scope>SpaceshipGame::IShipComponentInterface</scope><name>Name</name></member>
+      <member refid="interface_spaceship_game_1_1_i_ship_component_interface_1aa4ccfca6896b4c3a87485ea3367dcf37" prot="public" virt="non-virtual"><scope>SpaceshipGame::IShipComponentInterface</scope><name>NumberOfMoves</name></member>
+      <member refid="interface_spaceship_game_1_1_i_ship_component_interface_1ad356f42713ba0149ad8ac6eba8557123" prot="public" virt="non-virtual"><scope>SpaceshipGame::IShipComponentInterface</scope><name>ProvidesComms</name></member>
+      <member refid="interface_spaceship_game_1_1_i_ship_component_interface_1a1d1f6c6e9512452958ae6e0d593fcc6e" prot="public" virt="non-virtual"><scope>SpaceshipGame::IShipComponentInterface</scope><name>ProvidesControl</name></member>
+      <member refid="interface_spaceship_game_1_1_i_ship_component_interface_1a77ad89e81214695ca0a08a875ade6532" prot="public" virt="non-virtual"><scope>SpaceshipGame::IShipComponentInterface</scope><name>ProvidesLifeSupport</name></member>
+      <member refid="interface_spaceship_game_1_1_i_ship_component_interface_1a8290bd5d3064d027a7f6f25e82edd0be" prot="public" virt="non-virtual"><scope>SpaceshipGame::IShipComponentInterface</scope><name>ProvidesPropulsion</name></member>
+      <member refid="interface_spaceship_game_1_1_i_ship_component_interface_1ad01394e2b7f3a82ce96130aa35906550" prot="public" virt="non-virtual"><scope>SpaceshipGame::IShipComponentInterface</scope><name>ProvidesWeapon</name></member>
+      <member refid="interface_spaceship_game_1_1_i_ship_component_interface_1a265fe8c81360df330e749915add5742f" prot="public" virt="non-virtual"><scope>SpaceshipGame::IShipComponentInterface</scope><name>WarpRange</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

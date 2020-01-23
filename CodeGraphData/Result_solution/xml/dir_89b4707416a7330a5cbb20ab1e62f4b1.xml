@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_89b4707416a7330a5cbb20ab1e62f4b1" kind="dir">
+    <compoundname>//blackhole</compoundname>
+    <innerdir refid="dir_4ce353444774f7452844fd5b8c1ae268">//blackhole/ironhold</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="//blackhole/"/>
+  </compounddef>
+</doxygen>

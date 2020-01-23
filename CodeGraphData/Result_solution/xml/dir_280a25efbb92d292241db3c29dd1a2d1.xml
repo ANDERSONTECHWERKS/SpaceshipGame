@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_280a25efbb92d292241db3c29dd1a2d1" kind="dir">
+    <compoundname>//blackhole/ironhold/Programming Projects</compoundname>
+    <innerdir refid="dir_e8bd34b763a9d79001babccaa0e6742d">//blackhole/ironhold/Programming Projects/Visual Studio</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="//blackhole/ironhold/Programming Projects/"/>
+  </compounddef>
+</doxygen>

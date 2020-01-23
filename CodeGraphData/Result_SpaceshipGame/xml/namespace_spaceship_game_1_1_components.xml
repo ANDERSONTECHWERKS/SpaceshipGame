@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_spaceship_game_1_1_components" kind="namespace">
+    <compoundname>SpaceshipGame::Components</compoundname>
+    <innerclass refid="class_spaceship_game_1_1_components_1_1_cockpit" prot="public">SpaceshipGame::Components::Cockpit</innerclass>
+    <innerclass refid="class_spaceship_game_1_1_components_1_1_ion_engines" prot="public">SpaceshipGame::Components::IonEngines</innerclass>
+    <innernamespace refid="namespace_spaceship_game_1_1_components_1_1_component_interfaces">SpaceshipGame::Components::ComponentInterfaces</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_spaceship_game_1_1_i_ship_class_interface" kind="interface" prot="public">
+    <compoundname>SpaceshipGame::IShipClassInterface</compoundname>
+    <derivedcompoundref refid="class_spaceship_game_1_1_ship_classes_1_1_frigate" prot="public" virt="non-virtual">SpaceshipGame.ShipClasses.Frigate</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_spaceship_game_1_1_i_ship_class_interface_1aee7964e8aedc3d3344e56f32f5e8ef54" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>String</type>
+        <definition>String SpaceshipGame.IShipClassInterface.shipClassName</definition>
+        <argsstring></argsstring>
+        <name>shipClassName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipClasses/IShipClassInterface.cs" line="9" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipClasses/IShipClassInterface.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_spaceship_game_1_1_i_ship_class_interface_1a620091d82a86875fa5bea0c534fd9777" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int SpaceshipGame.IShipClassInterface.hullHealth</definition>
+        <argsstring></argsstring>
+        <name>hullHealth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipClasses/IShipClassInterface.cs" line="15" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipClasses/IShipClassInterface.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_spaceship_game_1_1_i_ship_class_interface_1a617a6b690c138ecd5708cef7006f862c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int SpaceshipGame.IShipClassInterface.numComponents</definition>
+        <argsstring></argsstring>
+        <name>numComponents</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipClasses/IShipClassInterface.cs" line="21" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipClasses/IShipClassInterface.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_spaceship_game_1_1_i_ship_class_interface_1ac0e58386b187490f5828190e2d577441" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int SpaceshipGame.IShipClassInterface.locationRow</definition>
+        <argsstring></argsstring>
+        <name>locationRow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipClasses/IShipClassInterface.cs" line="27" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipClasses/IShipClassInterface.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_spaceship_game_1_1_i_ship_class_interface_1a02608410ede2ee5857bd59b16d3ac270" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int SpaceshipGame.IShipClassInterface.locationCol</definition>
+        <argsstring></argsstring>
+        <name>locationCol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipClasses/IShipClassInterface.cs" line="33" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipClasses/IShipClassInterface.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="37">
+        <label>SpaceshipGame.IShipClassInterface</label>
+        <link refid="interface_spaceship_game_1_1_i_ship_class_interface"/>
+      </node>
+      <node id="38">
+        <label>SpaceshipGame.ShipClasses.Frigate</label>
+        <link refid="class_spaceship_game_1_1_ship_classes_1_1_frigate"/>
+        <childnode refid="37" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipClasses/IShipClassInterface.cs" line="8" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipClasses/IShipClassInterface.cs" bodystart="7" bodyend="38"/>
+    <listofallmembers>
+      <member refid="interface_spaceship_game_1_1_i_ship_class_interface_1a620091d82a86875fa5bea0c534fd9777" prot="public" virt="non-virtual"><scope>SpaceshipGame::IShipClassInterface</scope><name>hullHealth</name></member>
+      <member refid="interface_spaceship_game_1_1_i_ship_class_interface_1a02608410ede2ee5857bd59b16d3ac270" prot="public" virt="non-virtual"><scope>SpaceshipGame::IShipClassInterface</scope><name>locationCol</name></member>
+      <member refid="interface_spaceship_game_1_1_i_ship_class_interface_1ac0e58386b187490f5828190e2d577441" prot="public" virt="non-virtual"><scope>SpaceshipGame::IShipClassInterface</scope><name>locationRow</name></member>
+      <member refid="interface_spaceship_game_1_1_i_ship_class_interface_1a617a6b690c138ecd5708cef7006f862c" prot="public" virt="non-virtual"><scope>SpaceshipGame::IShipClassInterface</scope><name>numComponents</name></member>
+      <member refid="interface_spaceship_game_1_1_i_ship_class_interface_1aee7964e8aedc3d3344e56f32f5e8ef54" prot="public" virt="non-virtual"><scope>SpaceshipGame::IShipClassInterface</scope><name>shipClassName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

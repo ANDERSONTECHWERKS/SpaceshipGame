@@ -6,22 +6,53 @@ namespace SpaceshipGame
 {
     public interface IShipComponentInterface
     {
-        public int getHealth();
-        public void setHealth(int healthSet);
+        String Name
+        {
+            get;
 
-        public Boolean isDestroyed();
-
-        public Boolean isDisabled();
-        public Boolean isPropulsion();
-
-        public Boolean isWeapon();
-
-        public Boolean isLifeSupport();
-
-        public Boolean isControl();
-
-        public Boolean isComms();
-
-        public string getName();
+        }
+        int Health
+        {
+            get;set;
+        }
+        int NumberOfMoves
+        {
+            get;set;
+        }
+        int WarpRange
+        {
+            get;set;
+        }
+        bool CanWarp
+        {
+            get;set;
+        }
+        Boolean ProvidesComms {
+            get;set;
+        }
+        Boolean ProvidesControl
+        {
+            get;set;
+        }
+        Boolean IsDestroyed
+        {
+            get;set;
+        }
+        Boolean IsDisabled
+        {
+            get;set;
+        }
+        Boolean ProvidesLifeSupport
+        {
+            get;set;
+        }
+        Boolean ProvidesPropulsion
+        {
+            get;set;
+        }
+        Boolean ProvidesWeapon
+        {
+            get;set;
+        }
     }   
 }

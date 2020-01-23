@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_spaceship_game_1_1_space_game_1_1_environment_modifiers_1_1_environment" kind="class" prot="public">
+    <compoundname>SpaceshipGame::SpaceGame::EnvironmentModifiers::Environment</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_spaceship_game_1_1_space_game_1_1_environment_modifiers_1_1_environment_1a01c3f1c7ebe1e5d5cb0a36e5bea17be5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SpaceshipGame.SpaceGame.EnvironmentModifiers.Environment.Environment</definition>
+        <argsstring>()</argsstring>
+        <name>Environment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Environment/Environment.cs" line="9" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Environment/Environment.cs" bodystart="9" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Environment/Environment.cs" line="8" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Environment/Environment.cs" bodystart="7" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_spaceship_game_1_1_space_game_1_1_environment_modifiers_1_1_environment_1a01c3f1c7ebe1e5d5cb0a36e5bea17be5" prot="public" virt="non-virtual"><scope>SpaceshipGame::SpaceGame::EnvironmentModifiers::Environment</scope><name>Environment</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

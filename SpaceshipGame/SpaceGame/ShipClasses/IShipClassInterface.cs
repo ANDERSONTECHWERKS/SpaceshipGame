@@ -6,31 +6,31 @@ namespace SpaceshipGame
 {
     public interface IShipClassInterface
     {
-        public String shipClassName
+        String shipClassName
         {
             get;
 
         }
 
-        public int hullHealth
+        int hullHealth
         {
             get;
             
         }
 
-        public int numComponents
+        int numComponents
         {
             get;
 
         }
 
-        public int locationRow
+        int locationRow
         {
             get;
             set;
         }
 
-        public int locationCol
+        int locationCol
         {
             get;
             set;

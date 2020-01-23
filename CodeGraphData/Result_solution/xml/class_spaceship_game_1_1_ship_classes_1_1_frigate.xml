@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_spaceship_game_1_1_ship_classes_1_1_frigate" kind="class" prot="public">
+    <compoundname>SpaceshipGame::ShipClasses::Frigate</compoundname>
+    <basecompoundref refid="interface_spaceship_game_1_1_i_ship_class_interface" prot="public" virt="non-virtual">SpaceshipGame.IShipClassInterface</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_spaceship_game_1_1_ship_classes_1_1_frigate_1a75d11e7812bf588299ee828783fee5f8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SpaceshipGame.ShipClasses.Frigate.hullHealth</definition>
+        <argsstring></argsstring>
+        <name>hullHealth</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipClasses/Frigate.cs" line="10" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipClasses/Frigate.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_spaceship_game_1_1_ship_classes_1_1_frigate_1a7a7e23fb48acdc8f57744aef0bdf6a04" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SpaceshipGame.ShipClasses.Frigate.numComponents</definition>
+        <argsstring></argsstring>
+        <name>numComponents</name>
+        <initializer>=&gt; 7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipClasses/Frigate.cs" line="12" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipClasses/Frigate.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spaceship_game_1_1_ship_classes_1_1_frigate_1ab3f43a57b1d5ec7ae1e7d49f3a19ddf7" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SpaceshipGame.ShipClasses.Frigate.shipClassName</definition>
+        <argsstring></argsstring>
+        <name>shipClassName</name>
+        <initializer>=&gt; &quot;Frigate&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipClasses/Frigate.cs" line="17" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipClasses/Frigate.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_spaceship_game_1_1_ship_classes_1_1_frigate_1a65f150a5d2b9b4e99d5d7501324e5af4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int SpaceshipGame.ShipClasses.Frigate.locationRow</definition>
+        <argsstring></argsstring>
+        <name>locationRow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipClasses/Frigate.cs" line="14" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipClasses/Frigate.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_spaceship_game_1_1_ship_classes_1_1_frigate_1af64c82fd2836ff9cecc0bbfa747ba427" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int SpaceshipGame.ShipClasses.Frigate.locationCol</definition>
+        <argsstring></argsstring>
+        <name>locationCol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipClasses/Frigate.cs" line="15" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipClasses/Frigate.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_spaceship_game_1_1_ship_classes_1_1_frigate_1aad276c548ceb5a08d3b74b14bfe77989" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int IShipClassInterface.</type>
+        <definition>int IShipClassInterface. SpaceshipGame.ShipClasses.Frigate.hullHealth</definition>
+        <argsstring></argsstring>
+        <name>hullHealth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipClasses/Frigate.cs" line="19" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipClasses/Frigate.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="19">
+        <label>IShipClassInterface</label>
+        <link refid="interface_spaceship_game_1_1_i_ship_class_interface"/>
+      </node>
+      <node id="18">
+        <label>SpaceshipGame.ShipClasses.Frigate</label>
+        <link refid="class_spaceship_game_1_1_ship_classes_1_1_frigate"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="21">
+        <label>IShipClassInterface</label>
+        <link refid="interface_spaceship_game_1_1_i_ship_class_interface"/>
+      </node>
+      <node id="20">
+        <label>SpaceshipGame.ShipClasses.Frigate</label>
+        <link refid="class_spaceship_game_1_1_ship_classes_1_1_frigate"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipClasses/Frigate.cs" line="9" column="1" bodyfile="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipClasses/Frigate.cs" bodystart="8" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_spaceship_game_1_1_ship_classes_1_1_frigate_1a75d11e7812bf588299ee828783fee5f8" prot="private" virt="non-virtual"><scope>SpaceshipGame::ShipClasses::Frigate</scope><name>hullHealth</name></member>
+      <member refid="class_spaceship_game_1_1_ship_classes_1_1_frigate_1aad276c548ceb5a08d3b74b14bfe77989" prot="private" virt="non-virtual"><scope>SpaceshipGame::ShipClasses::Frigate</scope><name>hullHealth</name></member>
+      <member refid="class_spaceship_game_1_1_ship_classes_1_1_frigate_1af64c82fd2836ff9cecc0bbfa747ba427" prot="public" virt="non-virtual"><scope>SpaceshipGame::ShipClasses::Frigate</scope><name>locationCol</name></member>
+      <member refid="class_spaceship_game_1_1_ship_classes_1_1_frigate_1a65f150a5d2b9b4e99d5d7501324e5af4" prot="public" virt="non-virtual"><scope>SpaceshipGame::ShipClasses::Frigate</scope><name>locationRow</name></member>
+      <member refid="class_spaceship_game_1_1_ship_classes_1_1_frigate_1a7a7e23fb48acdc8f57744aef0bdf6a04" prot="public" virt="non-virtual"><scope>SpaceshipGame::ShipClasses::Frigate</scope><name>numComponents</name></member>
+      <member refid="class_spaceship_game_1_1_ship_classes_1_1_frigate_1ab3f43a57b1d5ec7ae1e7d49f3a19ddf7" prot="public" virt="non-virtual"><scope>SpaceshipGame::ShipClasses::Frigate</scope><name>shipClassName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

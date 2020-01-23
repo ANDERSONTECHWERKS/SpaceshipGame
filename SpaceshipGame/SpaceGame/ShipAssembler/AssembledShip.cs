@@ -21,6 +21,7 @@ namespace SpaceshipGame.ShipAssembler
         private IShipClassInterface currentShipClass;
 
         //Current list of ship components. Should be imported into constructor below.
+
         private List<IShipComponentInterface> currentShipComponents;
 
         //Current ship health. Should be derived from ship class in constructor below.
@@ -30,7 +31,8 @@ namespace SpaceshipGame.ShipAssembler
         private int locationRow;
         private int locationCol;
 
-        //TODO: Make getters / setters for every flag
+        //Current number of moves based off of currentShipComponents move enumeration
+        private int numberMoves;
 
         //Current ship status flags
         private Boolean isDestroyed;
@@ -40,6 +42,7 @@ namespace SpaceshipGame.ShipAssembler
         private Boolean hasLifeSupport;
         private Boolean hasControl;
         private Boolean hasComms;
+
 
         public static AssembledShip AssembleMenu()
         {
@@ -108,7 +111,7 @@ namespace SpaceshipGame.ShipAssembler
 
         //Ship asssembly constructor. Requires ship class, ship component list, and location col/row as input.
         //TODO: Figure out default ship positions, continue making static methods for determining has<Flags>, and eventually figure out ToString
-        public AssembledShip(string shipNameInp, IShipClassInterface shipClass,int locationRowInp,int locationColInp, List<IShipComponentInterface> shipComponentList){
+         AssembledShip(string shipNameInp, IShipClassInterface shipClass,int locationRowInp,int locationColInp, List<IShipComponentInterface> shipComponentList){
             shipName = shipNameInp;
             shipHealth = shipClass.hullHealth;
             currentShipClass = shipClass;
@@ -130,7 +133,7 @@ namespace SpaceshipGame.ShipAssembler
         public override string ToString()
         {
             
-            return "Ship Name: " + shipName + ", Ship Class: " + currentShipClass;
+            return "Ship Name: " + shipName + ", Ship Class: " + currentShipClass + " Ship ID:" + this.GetHashCode();
         }
 
         public string getName()

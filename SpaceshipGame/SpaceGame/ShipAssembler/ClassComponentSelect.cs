@@ -30,7 +30,7 @@ namespace SpaceshipGame.ShipAssembler
             }
 
         }
-        // TODO: This is throwing an "ArgumentOutOfRange". (Must be non-negative and less than size of collection. Maybe try using collection.add?)
+
         //selectComponents: For every slot, asks the user what component to insert.
         public static List<IShipComponentInterface> selectComponents(IShipClassInterface selectedClass)
         {
@@ -77,7 +77,7 @@ namespace SpaceshipGame.ShipAssembler
             int counter = 1;
             foreach (IShipComponentInterface thisComponent in chosenComponents)
             {
-                Console.WriteLine("SLOT: " + counter + " COMPONENT: " + thisComponent.getName());
+                Console.WriteLine("SLOT: " + counter + " COMPONENT: " + thisComponent.Name);
                 counter++;
             }
 
@@ -104,7 +104,7 @@ namespace SpaceshipGame.ShipAssembler
 
             foreach (IShipComponentInterface enumComponent in shipComponentList)
             {
-                if (enumComponent.isPropulsion())
+                if (enumComponent.ProvidesPropulsion)
                 {
                     engineCount++;
                 }
@@ -130,7 +130,7 @@ namespace SpaceshipGame.ShipAssembler
 
             foreach (IShipComponentInterface enumComponent in shipComponentList)
             {
-                if (enumComponent.isWeapon())
+                if (enumComponent.ProvidesWeapon)
                 {
                     weaponCount++;
                 }
@@ -152,12 +152,12 @@ namespace SpaceshipGame.ShipAssembler
             //TODO: Consider checking for disabled life support and thinking what you want to do with it.
 
             //This loop and set of if-statements determines whether the ship has life support
-            //by counting the number of components with the "isLifeSupport" flag set.
+            //by counting the number of components with the "ProvidesLifeSupport" flag set.
             int lifeSupportCount = 0;
 
             foreach (IShipComponentInterface enumComponent in shipComponentList)
             {
-                if (enumComponent.isLifeSupport())
+                if (enumComponent.ProvidesLifeSupport)
                 {
                     lifeSupportCount++;
                 }
@@ -178,12 +178,12 @@ namespace SpaceshipGame.ShipAssembler
             //TODO: Consider checking for disabled controllers and thinking what you want to do with them.
 
             //This loop and set of if-statements determines whether the ship has a method of control
-            //by counting the number of components with the "isControl" flag set.
+            //by counting the number of components with the "ProvidesControl" flag set.
             int controllerCount = 0;
 
             foreach (IShipComponentInterface enumComponent in shipComponentList)
             {
-                if (enumComponent.isControl())
+                if (enumComponent.ProvidesControl)
                 {
                     controllerCount++;
                 }
@@ -204,12 +204,12 @@ namespace SpaceshipGame.ShipAssembler
             //TODO: Consider checking for disabled comms and thinking what you want to do with them.
 
             //This loop and set of if-statements determines whether the ship has communications
-            //by counting the number of components with the "isComms" flag set.
+            //by counting the number of components with the "ProvidesComms" flag set.
             int commsCount = 0;
 
             foreach (IShipComponentInterface enumComponent in shipComponentList)
             {
-                if (enumComponent.isComms())
+                if (enumComponent.ProvidesComms)
                 {
                     commsCount++;
                 }

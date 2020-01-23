@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_spaceship_game_1_1_space_game_1_1_game_controller" kind="namespace">
+    <compoundname>SpaceshipGame::SpaceGame::GameController</compoundname>
+    <innerclass refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_environment_modifier" prot="public">SpaceshipGame::SpaceGame::GameController::EnvironmentModifier</innerclass>
+    <innerclass refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel" prot="public">SpaceshipGame::SpaceGame::GameController::GameSentinel</innerclass>
+    <innerclass refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_player" prot="public">SpaceshipGame::SpaceGame::GameController::Player</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController/EnvironmentModifier.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

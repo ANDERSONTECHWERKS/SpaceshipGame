@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship" kind="class"><name>SpaceshipGame::ShipAssembler::AssembledShip</name>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1af7acdde94d6a912c57f11598c60505f2" kind="variable"><name>shipName</name></member>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1ae926cb5f8a119372de172755bfd25031" kind="variable"><name>currentShipClass</name></member>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a1a8477fdb1dfb3682d75ac08473ce0fe" kind="variable"><name>currentShipComponents</name></member>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a419e1f66913ba7544e0ff23cfef5ca07" kind="variable"><name>shipHealth</name></member>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1acfd42abc4009fecd5715e9e134bc1611" kind="variable"><name>locationRow</name></member>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a6f8577ae900baeca343851ba3d1a290e" kind="variable"><name>locationCol</name></member>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a258342b1793ff8d8429f2ffb6b2eba9c" kind="variable"><name>isDestroyed</name></member>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1affa07735144cf9ddc62619d4b5e54370" kind="variable"><name>isDisabled</name></member>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a7a415af7ba25b012c6dbdd3ab5bca93a" kind="variable"><name>hasPropulsion</name></member>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1abcf29e0920791829a0c6e4dc93bf0cee" kind="variable"><name>hasWeapon</name></member>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1ade0f4672fb1ff559a359fa31d035255e" kind="variable"><name>hasLifeSupport</name></member>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1ac822fc66eade06f5f5e6a0fc28902466" kind="variable"><name>hasControl</name></member>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a4f724f857d5b3dc535c36534ef35114d" kind="variable"><name>hasComms</name></member>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a5517acf7b168aa4106335f8422a50d03" kind="function"><name>AssembleMenu</name></member>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a805647ff97f868c30624e1ae79d95625" kind="function"><name>AssembledShip</name></member>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a3fc471acb0b467521e12e4dc249f9b91" kind="function"><name>ToString</name></member>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a8832060590d3736757b55a22d972e500" kind="function"><name>getName</name></member>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a7c14d97b06616af795bd4dae04b40c91" kind="function"><name>setName</name></member>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a8a1788c73d49a175fbe1ffc22a1d81de" kind="function"><name>getComponents</name></member>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a32aa1c49df08cb5943b9d164eb8b73e6" kind="function"><name>getShipClassObject</name></member>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a9ac869f3c3cca5ba2ed2c0a6d4e069b9" kind="function"><name>getLocationRow</name></member>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a5e61cf119f81875cbbc072d4694e6035" kind="function"><name>getLocationCol</name></member>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a80092e8adf86685405c7b1622cc9a158" kind="function"><name>setLocationRow</name></member>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a601a56152abe96e965cc5edf6af4292f" kind="function"><name>setLocationCol</name></member>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_assembled_ship_1a8b5f79e0e04b48029ef610fedd9ae04a" kind="function"><name>AssembledShip</name></member>
+  </compound>
+  <compound refid="class_spaceship_game_1_1_ship_assembler_1_1_class_component_select" kind="class"><name>SpaceshipGame::ShipAssembler::ClassComponentSelect</name>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_class_component_select_1aeaea9898619574c5044b5ce4c10d5be7" kind="function"><name>selectClass</name></member>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_class_component_select_1af7a4ee7411ed6ebe7445b8feafb1e475" kind="function"><name>selectComponents</name></member>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_class_component_select_1a1478f32f4a273c7734d6c72903676448" kind="function"><name>confirmSelection</name></member>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_class_component_select_1aa25f60218fc202558f789ba081bdbac4" kind="function"><name>hasPropulsion</name></member>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_class_component_select_1a05868a56d71d717f8ea40e03adac699e" kind="function"><name>hasWeapons</name></member>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_class_component_select_1a24af41f7a03c46db75a341fbac0adaf2" kind="function"><name>hasLifeSupport</name></member>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_class_component_select_1a1cd3a51d2f7058b23944762b80091867" kind="function"><name>hasControl</name></member>
+    <member refid="class_spaceship_game_1_1_ship_assembler_1_1_class_component_select_1ad30ddfebebe09419f2bd37cda20f9bc7" kind="function"><name>hasComms</name></member>
+  </compound>
+  <compound refid="class_spaceship_game_1_1_components_1_1_cockpit" kind="class"><name>SpaceshipGame::Components::Cockpit</name>
+    <member refid="class_spaceship_game_1_1_components_1_1_cockpit_1ae688d952893d840d805ffa6b8999bce4" kind="variable"><name>Name</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_cockpit_1aeb0261898d0ac8ebee7034e3c46f6232" kind="variable"><name>Health</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_cockpit_1aa046d14fdcbb947a4898fe30b0dd2b08" kind="variable"><name>NumberOfMoves</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_cockpit_1a346646b37ee337097b5b24bbdfe51485" kind="variable"><name>WarpRange</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_cockpit_1afd63632370dda52078e8423f8d1f34c9" kind="variable"><name>CanWarp</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_cockpit_1ac4a92b6c49040ae059ee335fd7298ed7" kind="variable"><name>ProvidesComms</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_cockpit_1a25850c8d156c9419035f1f1bf664df57" kind="variable"><name>ProvidesControl</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_cockpit_1a0f43db5cc2d6250bf85b7e5a089e1064" kind="variable"><name>IsDestroyed</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_cockpit_1a2151a317beb4b9907d59b30d80b11e7e" kind="variable"><name>IsDisabled</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_cockpit_1a493fd865d50c1b50ce29cf06d626c6c6" kind="variable"><name>ProvidesLifeSupport</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_cockpit_1a21831cb1fd874a1353eacff7e29f4a9c" kind="variable"><name>ProvidesPropulsion</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_cockpit_1a054c780a288ef5c5cdac14e63e627a40" kind="variable"><name>ProvidesWeapon</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_cockpit_1a9d3b25235e206f3906960ef0d6afbf94" kind="variable"><name>Name</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_cockpit_1ad42d70b863b76775fa4384c5813af9b8" kind="property"><name>Health</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_cockpit_1a3052726be154aa3a25235dffff0a0cf4" kind="property"><name>NumberOfMoves</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_cockpit_1a383cd6a686fb0571e6901e8ae7c352a3" kind="property"><name>WarpRange</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_cockpit_1af7bab68e8bcc5b27cd454c8432fd705f" kind="property"><name>CanWarp</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_cockpit_1a5bd2b39db02b95e00415506aaee6803a" kind="property"><name>ProvidesComms</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_cockpit_1af53f3b82b2138ec7a9018236ab3db06b" kind="property"><name>ProvidesControl</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_cockpit_1a3311dc359f492ed8efd0a67b5f5a0dc4" kind="property"><name>IsDestroyed</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_cockpit_1a74749d166f271afa7a8bac07f3b67089" kind="property"><name>IsDisabled</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_cockpit_1aba947dbe5f8fa8a6b2da1073d0425ffd" kind="property"><name>ProvidesLifeSupport</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_cockpit_1ab51451fdc5df62c01afcf5d03cb081a8" kind="property"><name>ProvidesPropulsion</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_cockpit_1aa57dae202dc33f81b53ebcebeec4a458" kind="property"><name>ProvidesWeapon</name></member>
+  </compound>
+  <compound refid="class_spaceship_game_1_1_space_game_1_1_grid_1_1_combat" kind="class"><name>SpaceshipGame::SpaceGame::Grid::Combat</name>
+    <member refid="class_spaceship_game_1_1_space_game_1_1_grid_1_1_combat_1ada2d03fa6afe15608204610902b45821" kind="variable"><name>ship1</name></member>
+    <member refid="class_spaceship_game_1_1_space_game_1_1_grid_1_1_combat_1af4cce51817b4a79d2f27b409fd984f41" kind="variable"><name>ship2</name></member>
+    <member refid="class_spaceship_game_1_1_space_game_1_1_grid_1_1_combat_1ab34f61a1f710eb4bcf95f5d875b73f05" kind="function"><name>PerformEncounter</name></member>
+    <member refid="class_spaceship_game_1_1_space_game_1_1_grid_1_1_combat_1ad609f50a13376b83c5abee6a731beca0" kind="function"><name>PerformCombat</name></member>
+  </compound>
+  <compound refid="class_spaceship_game_1_1_space_game_1_1_environment_modifiers_1_1_environment" kind="class"><name>SpaceshipGame::SpaceGame::EnvironmentModifiers::Environment</name>
+    <member refid="class_spaceship_game_1_1_space_game_1_1_environment_modifiers_1_1_environment_1a01c3f1c7ebe1e5d5cb0a36e5bea17be5" kind="function"><name>Environment</name></member>
+  </compound>
+  <compound refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_environment_modifier" kind="class"><name>SpaceshipGame::SpaceGame::GameController::EnvironmentModifier</name>
+  </compound>
+  <compound refid="class_spaceship_game_1_1_ship_classes_1_1_frigate" kind="class"><name>SpaceshipGame::ShipClasses::Frigate</name>
+    <member refid="class_spaceship_game_1_1_ship_classes_1_1_frigate_1a75d11e7812bf588299ee828783fee5f8" kind="variable"><name>hullHealth</name></member>
+    <member refid="class_spaceship_game_1_1_ship_classes_1_1_frigate_1a7a7e23fb48acdc8f57744aef0bdf6a04" kind="variable"><name>numComponents</name></member>
+    <member refid="class_spaceship_game_1_1_ship_classes_1_1_frigate_1ab3f43a57b1d5ec7ae1e7d49f3a19ddf7" kind="variable"><name>shipClassName</name></member>
+    <member refid="class_spaceship_game_1_1_ship_classes_1_1_frigate_1a65f150a5d2b9b4e99d5d7501324e5af4" kind="property"><name>locationRow</name></member>
+    <member refid="class_spaceship_game_1_1_ship_classes_1_1_frigate_1af64c82fd2836ff9cecc0bbfa747ba427" kind="property"><name>locationCol</name></member>
+    <member refid="class_spaceship_game_1_1_ship_classes_1_1_frigate_1aad276c548ceb5a08d3b74b14bfe77989" kind="property"><name>hullHealth</name></member>
+  </compound>
+  <compound refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel" kind="class"><name>SpaceshipGame::SpaceGame::GameController::GameSentinel</name>
+    <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1a6e019b20453b5c72b312aef397cecb7a" kind="variable"><name>grid</name></member>
+    <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1ac3190099fc843802f6f34324b747e521" kind="variable"><name>envMod</name></member>
+    <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1a16a1c36c782f5f9734922d817c49e09b" kind="variable"><name>PlayerList</name></member>
+    <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1a73d506e55da6386188d0384becd9cf38" kind="function"><name>PerformTurn</name></member>
+    <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1adae0357e25bcc36a97ea5e527f234f56" kind="function"><name>PlayerTurnPrompt</name></member>
+    <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1ad31e2583ec4ab36bb25a5d85261c226c" kind="function"><name>PlayerMoveShip</name></member>
+    <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1a26c09693adb0d4d03088a6422d0c0fc9" kind="function"><name>GameSentinel</name></member>
+    <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1ad629a74c34e827a09b81bce80b5e3542" kind="function"><name>GetPlayerCount</name></member>
+    <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1a63372c8091fd672ff66889928b5398d9" kind="function"><name>GetPlayerList</name></member>
+    <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_game_sentinel_1a449ff99ef6cec05005b4aa5860f2cb2b" kind="function"><name>GetCurrentEnvironment</name></member>
+  </compound>
+  <compound refid="class_spaceship_game_1_1_components_1_1_ion_engines" kind="class"><name>SpaceshipGame::Components::IonEngines</name>
+    <member refid="class_spaceship_game_1_1_components_1_1_ion_engines_1a994f56fea8fd39b7be5ee10a6caf04a1" kind="variable"><name>name</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_ion_engines_1aaed073e30df8ff49b6c8b91e9ab7bc10" kind="variable"><name>health</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_ion_engines_1aa6a4ae59ecd866494b4b7a7fa14a4d02" kind="variable"><name>NumberOfMoves</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_ion_engines_1ab512ea8a2a50c4f36657c964d83722ee" kind="variable"><name>WarpRange</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_ion_engines_1a48142f15252bf6f4ac7c23aca95ef882" kind="variable"><name>CanWarp</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_ion_engines_1a23a20ebcaa6df02d62e3827316544bc8" kind="variable"><name>ProvidesComms</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_ion_engines_1a0574d2e3745233ec3abb6031a52befdc" kind="variable"><name>ProvidesControl</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_ion_engines_1a2dd8dab22a911ffd059763b7964ceee7" kind="variable"><name>IsDestroyed</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_ion_engines_1adcb7c9947801b70886a60d5e856f4c72" kind="variable"><name>IsDisabled</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_ion_engines_1a6fa4d3d21f2bc9fe8147354981b90498" kind="variable"><name>ProvidesLifeSupport</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_ion_engines_1a7a7c23780f401c9c30115ade7c584103" kind="variable"><name>ProvidesPropulsion</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_ion_engines_1a1e417d12126862f1c2014b7b6c379080" kind="variable"><name>ProvidesWeapon</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_ion_engines_1acae03e55e5547b5998e2b09400fe9b5d" kind="property"><name>Health</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_ion_engines_1a507621b0472395145951781a194b06e0" kind="property"><name>NumberOfMoves</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_ion_engines_1a02707596b07e77074c9f5052353a1748" kind="property"><name>NumberOfMoves</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_ion_engines_1a0d53a4d64319125cb0706ca592268673" kind="property"><name>WarpRange</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_ion_engines_1a8bee95791c20c91e3661b088ccf449dc" kind="property"><name>WarpRange</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_ion_engines_1a82ada267f6f582b9aa1bc4ecbbbd6743" kind="property"><name>CanWarp</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_ion_engines_1a39f98919d11d721a9270615d054db123" kind="property"><name>CanWarp</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_ion_engines_1a291853a47647566bc4963480a2e5a900" kind="property"><name>ProvidesComms</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_ion_engines_1a5dada8873b7f6084c047fc37c5a4eb6c" kind="property"><name>ProvidesControl</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_ion_engines_1a784c2047efc3116dcb348f20774d4486" kind="property"><name>IsDestroyed</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_ion_engines_1a51ec6bad6c390e603bf84f3828b1ebd0" kind="property"><name>IsDisabled</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_ion_engines_1a976120ae9dec3e4403411509e84d783f" kind="property"><name>ProvidesLifeSupport</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_ion_engines_1ae625f6a877723e893eec67b397f4a5d9" kind="property"><name>ProvidesPropulsion</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_ion_engines_1a57f90bb5079e3f04fa7da3cf4ac3e38f" kind="property"><name>ProvidesWeapon</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_ion_engines_1a914a7ad49328d7d70862e103b7e30eea" kind="property"><name>Name</name></member>
+    <member refid="class_spaceship_game_1_1_components_1_1_ion_engines_1ab7f8305eccdd9a86934a4a6f115754da" kind="property"><name>Name</name></member>
+  </compound>
+  <compound refid="interface_spaceship_game_1_1_components_1_1_component_interfaces_1_1_i_propulsion_component_interface" kind="interface"><name>SpaceshipGame::Components::ComponentInterfaces::IPropulsionComponentInterface</name>
+    <member refid="interface_spaceship_game_1_1_components_1_1_component_interfaces_1_1_i_propulsion_component_interface_1aecfab1788784f6dd1fcf967663aacdf2" kind="property"><name>NumberOfMoves</name></member>
+    <member refid="interface_spaceship_game_1_1_components_1_1_component_interfaces_1_1_i_propulsion_component_interface_1a8b80a93dc1156740e03072c010c565e6" kind="property"><name>CanWarp</name></member>
+    <member refid="interface_spaceship_game_1_1_components_1_1_component_interfaces_1_1_i_propulsion_component_interface_1a7ebc966cf4491df427ae7adfdec1685b" kind="property"><name>WarpRange</name></member>
+    <member refid="interface_spaceship_game_1_1_components_1_1_component_interfaces_1_1_i_propulsion_component_interface_1a077baf99f9ba8ac1ca9a9a0655eb6f6c" kind="property"><name>Name</name></member>
+  </compound>
+  <compound refid="interface_spaceship_game_1_1_i_ship_class_interface" kind="interface"><name>SpaceshipGame::IShipClassInterface</name>
+    <member refid="interface_spaceship_game_1_1_i_ship_class_interface_1aee7964e8aedc3d3344e56f32f5e8ef54" kind="property"><name>shipClassName</name></member>
+    <member refid="interface_spaceship_game_1_1_i_ship_class_interface_1a620091d82a86875fa5bea0c534fd9777" kind="property"><name>hullHealth</name></member>
+    <member refid="interface_spaceship_game_1_1_i_ship_class_interface_1a617a6b690c138ecd5708cef7006f862c" kind="property"><name>numComponents</name></member>
+    <member refid="interface_spaceship_game_1_1_i_ship_class_interface_1ac0e58386b187490f5828190e2d577441" kind="property"><name>locationRow</name></member>
+    <member refid="interface_spaceship_game_1_1_i_ship_class_interface_1a02608410ede2ee5857bd59b16d3ac270" kind="property"><name>locationCol</name></member>
+  </compound>
+  <compound refid="interface_spaceship_game_1_1_i_ship_component_interface" kind="interface"><name>SpaceshipGame::IShipComponentInterface</name>
+    <member refid="interface_spaceship_game_1_1_i_ship_component_interface_1ac9a9095c3cf9913f2f5233c812d3feca" kind="property"><name>Name</name></member>
+    <member refid="interface_spaceship_game_1_1_i_ship_component_interface_1ada9096c4f7d1ff25a1ea0efaa6f752ee" kind="property"><name>Health</name></member>
+    <member refid="interface_spaceship_game_1_1_i_ship_component_interface_1aa4ccfca6896b4c3a87485ea3367dcf37" kind="property"><name>NumberOfMoves</name></member>
+    <member refid="interface_spaceship_game_1_1_i_ship_component_interface_1a265fe8c81360df330e749915add5742f" kind="property"><name>WarpRange</name></member>
+    <member refid="interface_spaceship_game_1_1_i_ship_component_interface_1ae2c239cf7ce597dde4ca6aec86a0e21c" kind="property"><name>CanWarp</name></member>
+    <member refid="interface_spaceship_game_1_1_i_ship_component_interface_1ad356f42713ba0149ad8ac6eba8557123" kind="property"><name>ProvidesComms</name></member>
+    <member refid="interface_spaceship_game_1_1_i_ship_component_interface_1a1d1f6c6e9512452958ae6e0d593fcc6e" kind="property"><name>ProvidesControl</name></member>
+    <member refid="interface_spaceship_game_1_1_i_ship_component_interface_1a2a97e557c96491d688a3197114ae2413" kind="property"><name>IsDestroyed</name></member>
+    <member refid="interface_spaceship_game_1_1_i_ship_component_interface_1ad08d957a1a45c27933fdc61f4c4b97db" kind="property"><name>IsDisabled</name></member>
+    <member refid="interface_spaceship_game_1_1_i_ship_component_interface_1a77ad89e81214695ca0a08a875ade6532" kind="property"><name>ProvidesLifeSupport</name></member>
+    <member refid="interface_spaceship_game_1_1_i_ship_component_interface_1a8290bd5d3064d027a7f6f25e82edd0be" kind="property"><name>ProvidesPropulsion</name></member>
+    <member refid="interface_spaceship_game_1_1_i_ship_component_interface_1ad01394e2b7f3a82ce96130aa35906550" kind="property"><name>ProvidesWeapon</name></member>
+  </compound>
+  <compound refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_player" kind="class"><name>SpaceshipGame::SpaceGame::GameController::Player</name>
+    <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_player_1a08c17d2164780982e0f2467861640f51" kind="variable"><name>PlayerName</name></member>
+    <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_player_1a522e2e9a2c874298f961566ae5901eae" kind="variable"><name>PlayerShips</name></member>
+    <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_player_1ad9613a16646be48029d522a5cdcf8a0c" kind="function"><name>Player</name></member>
+    <member refid="class_spaceship_game_1_1_space_game_1_1_game_controller_1_1_player_1ae9c95668ed1628d472d4d9a6da8180e4" kind="function"><name>IsPlayerDead</name></member>
+  </compound>
+  <compound refid="class_spaceship_game_1_1_grid_1_1space_grid" kind="class"><name>SpaceshipGame::Grid::spaceGrid</name>
+    <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a66f5bd68a730dc01b204220c9d6b0212" kind="variable"><name>spacegrid</name></member>
+    <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1ab14ceb831b27d5a576e87e4c3386be0d" kind="variable"><name>shipGrid</name></member>
+    <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a8aa0e5c18c8048b24e3ef9af7629af2a" kind="variable"><name>ASTEROID</name></member>
+    <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a84995216108d046960bfb461df034e9e" kind="variable"><name>SPACE</name></member>
+    <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a882b39d975ab1196d23e3f0cb02ecfd2" kind="function"><name>spaceGrid</name></member>
+    <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a2d8cf6f458346926144a38f0a7ea8394" kind="function"><name>spaceGrid</name></member>
+    <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a3858791a9f304466584ac4b5da742d4d" kind="function"><name>isAsteroid</name></member>
+    <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1abeea5d663b018e79a0bd43fb266a10d8" kind="function"><name>addAsteroid</name></member>
+    <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a177d920c27f4f73328dab414abb7e977" kind="function"><name>removeAsteroid</name></member>
+    <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a8886bb78ef912f715f314094740586c6" kind="function"><name>AddShip</name></member>
+    <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1ad419bd250a8df1cc0ccc8039dd0015a4" kind="function"><name>RemoveShip</name></member>
+    <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a10df2d79a0965eb08525bd87b5d286db" kind="function"><name>isObstaclePresent</name></member>
+    <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1a679adc4a7270aa505dd6a2d4f1f5e4fb" kind="function"><name>isValidMove</name></member>
+    <member refid="class_spaceship_game_1_1_grid_1_1space_grid_1ab8ec62a0870693e31f0584ce098a5a94" kind="function"><name>MoveShip</name></member>
+  </compound>
+  <compound refid="class_spaceship_game_1_1_spaceship_game" kind="class"><name>SpaceshipGame::SpaceshipGame</name>
+    <member refid="class_spaceship_game_1_1_spaceship_game_1a35f8ba07c50eb253b24153ecc6c070ea" kind="function"><name>Main</name></member>
+    <member refid="class_spaceship_game_1_1_spaceship_game_1a70057c2a4e6a04c62a40b50192073994" kind="function"><name>NewGame</name></member>
+    <member refid="class_spaceship_game_1_1_spaceship_game_1a67ce7b74ba909faefe25d10f81447972" kind="function"><name>MainMenu</name></member>
+  </compound>
+  <compound refid="class_spaceship_game_unit_tests_1_1spaceship_tests" kind="class"><name>SpaceshipGameUnitTests::spaceshipTests</name>
+    <member refid="class_spaceship_game_unit_tests_1_1spaceship_tests_1afa92aa351c19ae1e7af179429c60caf4" kind="function"><name>TestDefaultGrid</name></member>
+    <member refid="class_spaceship_game_unit_tests_1_1spaceship_tests_1aa855633f2da2dd40cddbe64c8c5c6aae" kind="function"><name>TestShipPlacement</name></member>
+    <member refid="class_spaceship_game_unit_tests_1_1spaceship_tests_1aa8b75c17850fe0a52f44ae7b76d5b8e9" kind="function"><name>TestShipMovement</name></member>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_visual_studio_1_1_test_tools_1_1_unit_testing" kind="namespace"><name>Microsoft::VisualStudio::TestTools::UnitTesting</name>
+  </compound>
+  <compound refid="namespace_spaceship_game" kind="namespace"><name>SpaceshipGame</name>
+  </compound>
+  <compound refid="namespace_spaceship_game_1_1_components" kind="namespace"><name>SpaceshipGame::Components</name>
+  </compound>
+  <compound refid="namespace_spaceship_game_1_1_components_1_1_component_interfaces" kind="namespace"><name>SpaceshipGame::Components::ComponentInterfaces</name>
+  </compound>
+  <compound refid="namespace_spaceship_game_1_1_grid" kind="namespace"><name>SpaceshipGame::Grid</name>
+  </compound>
+  <compound refid="namespace_spaceship_game_1_1_ship_assembler" kind="namespace"><name>SpaceshipGame::ShipAssembler</name>
+  </compound>
+  <compound refid="namespace_spaceship_game_1_1_ship_classes" kind="namespace"><name>SpaceshipGame::ShipClasses</name>
+  </compound>
+  <compound refid="namespace_spaceship_game_1_1_space_game" kind="namespace"><name>SpaceshipGame::SpaceGame</name>
+  </compound>
+  <compound refid="namespace_spaceship_game_1_1_space_game_1_1_environment_modifiers" kind="namespace"><name>SpaceshipGame::SpaceGame::EnvironmentModifiers</name>
+  </compound>
+  <compound refid="namespace_spaceship_game_1_1_space_game_1_1_game_controller" kind="namespace"><name>SpaceshipGame::SpaceGame::GameController</name>
+  </compound>
+  <compound refid="namespace_spaceship_game_1_1_space_game_1_1_grid" kind="namespace"><name>SpaceshipGame::SpaceGame::Grid</name>
+  </compound>
+  <compound refid="namespace_spaceship_game_unit_tests" kind="namespace"><name>SpaceshipGameUnitTests</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="_cockpit_8cs" kind="file"><name>Cockpit.cs</name>
+  </compound>
+  <compound refid="propulsion_component_interface_8cs" kind="file"><name>propulsionComponentInterface.cs</name>
+  </compound>
+  <compound refid="ship_component_interface_8cs" kind="file"><name>shipComponentInterface.cs</name>
+  </compound>
+  <compound refid="_ion_engines_8cs" kind="file"><name>IonEngines.cs</name>
+  </compound>
+  <compound refid="_environment_8cs" kind="file"><name>Environment.cs</name>
+  </compound>
+  <compound refid="_environment_modifier_8cs" kind="file"><name>EnvironmentModifier.cs</name>
+  </compound>
+  <compound refid="_game_sentinel_8cs" kind="file"><name>GameSentinel.cs</name>
+  </compound>
+  <compound refid="_player_8cs" kind="file"><name>Player.cs</name>
+  </compound>
+  <compound refid="_combat_8cs" kind="file"><name>Combat.cs</name>
+  </compound>
+  <compound refid="space_grid_8cs" kind="file"><name>spaceGrid.cs</name>
+  </compound>
+  <compound refid="_spaceship_game_8cs" kind="file"><name>SpaceshipGame.cs</name>
+  </compound>
+  <compound refid="_assembled_ship_8cs" kind="file"><name>AssembledShip.cs</name>
+  </compound>
+  <compound refid="_class_component_select_8cs" kind="file"><name>ClassComponentSelect.cs</name>
+  </compound>
+  <compound refid="_frigate_8cs" kind="file"><name>Frigate.cs</name>
+  </compound>
+  <compound refid="_i_ship_class_interface_8cs" kind="file"><name>IShipClassInterface.cs</name>
+  </compound>
+  <compound refid="spaceship_tests_8cs" kind="file"><name>spaceshipTests.cs</name>
+  </compound>
+  <compound refid="dir_89b4707416a7330a5cbb20ab1e62f4b1" kind="dir"><name>//blackhole</name>
+  </compound>
+  <compound refid="dir_fbefe54b3d0d8454067d1c14e0d45946" kind="dir"><name>//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components/ComponentInterfaces</name>
+  </compound>
+  <compound refid="dir_6cbb01b229b1aabe0b6dee052751c60a" kind="dir"><name>//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Components</name>
+  </compound>
+  <compound refid="dir_dff15a48166fce0ab596d4d142b2359c" kind="dir"><name>//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Environment</name>
+  </compound>
+  <compound refid="dir_e824af1d05600a44c8c25685953dd7ff" kind="dir"><name>//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/GameController</name>
+  </compound>
+  <compound refid="dir_485030d9e1d1624bd3ecb770d80ec156" kind="dir"><name>//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Grid</name>
+  </compound>
+  <compound refid="dir_4ce353444774f7452844fd5b8c1ae268" kind="dir"><name>//blackhole/ironhold</name>
+  </compound>
+  <compound refid="dir_280a25efbb92d292241db3c29dd1a2d1" kind="dir"><name>//blackhole/ironhold/Programming Projects</name>
+  </compound>
+  <compound refid="dir_ffac821c4c0179b17bd4d43beaf7c611" kind="dir"><name>//blackhole/ironhold/Programming Projects/Visual Studio/source/repos</name>
+  </compound>
+  <compound refid="dir_12c181816354ca7fc78b6bac5bc412e2" kind="dir"><name>//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/Runtime</name>
+  </compound>
+  <compound refid="dir_edf04b70aa89e5d093c2a007b95324d2" kind="dir"><name>//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipAssembler</name>
+  </compound>
+  <compound refid="dir_e590188b262edabfd4ef1fa6eaf0d9a4" kind="dir"><name>//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame/ShipClasses</name>
+  </compound>
+  <compound refid="dir_21592777b8bfb0fc6e67af567b0d2105" kind="dir"><name>//blackhole/ironhold/Programming Projects/Visual Studio/source</name>
+  </compound>
+  <compound refid="dir_799aba4e79231dfdbd680a51e10ad34a" kind="dir"><name>//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame/SpaceGame</name>
+  </compound>
+  <compound refid="dir_9634b72bb56e77fffc53611d9a3446a7" kind="dir"><name>//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGame</name>
+  </compound>
+  <compound refid="dir_2c55e2e1fb295e4f4e19b4248f944675" kind="dir"><name>//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame</name>
+  </compound>
+  <compound refid="dir_6e0723e9fa13cfc2a0696c68b7e5befd" kind="dir"><name>//blackhole/ironhold/Programming Projects/Visual Studio/source/repos/SpaceshipGame/SpaceshipGameUnitTests</name>
+  </compound>
+  <compound refid="dir_e8bd34b763a9d79001babccaa0e6742d" kind="dir"><name>//blackhole/ironhold/Programming Projects/Visual Studio</name>
+  </compound>
+</doxygenindex>
